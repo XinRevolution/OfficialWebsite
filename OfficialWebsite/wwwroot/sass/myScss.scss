@@ -181,6 +181,7 @@ footer {
     position: fixed;
 }
 
+
 .wrapper {
     @include transition(all, 0.4s, ease, 0s);
     height: 100vh;
@@ -201,36 +202,44 @@ footer {
     z-index: 999;
 }
 
+.pt-content{
+    padding-top: calc(0.5rem + 40px);
+}
+
 // 主要內容
 .content {
     @extend .contentDiv;
     width: 100%;
-
-    .overflowAuto-x {
-
-        overflow-x: scroll;
-        overflow-y: hidden;
-
-        &::-webkit-scrollbar {
-            display: none
-        }
-    }
-
-
-
-    .overflowAuto-y {
-        overflow-x: hidden;
-        overflow-y: scroll;
-
-        &::-webkit-scrollbar {
-            display: none
-        }
-    }
-
-    .horizontalScroll {
-        white-space: nowrap;
-    }
 }
+
+.grid-conta
+
+// 主要內容-overflow
+.overflowAuto-x {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    // &::-webkit-scrollbar {
+    //     display: none
+    // }
+}
+
+
+
+.overflowAuto-y {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    // &::-webkit-scrollbar {
+    //     display: none
+    // }
+}
+
+.horizontalScroll {
+    white-space: nowrap;
+}
+
 
 // 十字框線
 %crossDivLINE {

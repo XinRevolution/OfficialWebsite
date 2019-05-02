@@ -7575,29 +7575,25 @@ footer {
   z-index: 999;
 }
 
+.pt-content {
+  padding-top: calc(0.5rem + 40px);
+}
+
 .content {
   width: 100%;
 }
 
-.content .overflowAuto-x {
+.grid-conta .overflowAuto-x {
   overflow-x: scroll;
   overflow-y: hidden;
 }
 
-.content .overflowAuto-x::-webkit-scrollbar {
-  display: none;
-}
-
-.content .overflowAuto-y {
+.overflowAuto-y {
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-.content .overflowAuto-y::-webkit-scrollbar {
-  display: none;
-}
-
-.content .horizontalScroll {
+.horizontalScroll {
   white-space: nowrap;
 }
 
