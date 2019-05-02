@@ -10,7 +10,7 @@
 @import 'issue.scss';
 @import 'fireGeneration.scss';
 
-.bgBlock {
+.bg-block {
     // box-shadow: 4px 5px 20px #6f6f6f78;
     position: fixed;
     height: 100%;
@@ -99,8 +99,8 @@ header {
         float: left;
     }
     &.bright {
-        .xLogo {
-            @extend .xLogo;
+        .x-logo {
+            @extend .x-logo;
             background: url(/images/X-logo-w.svg) no-repeat !important;
             background-size: contain !important;
             background-position: center !important;
@@ -130,13 +130,13 @@ footer {
     right: 0;
     z-index: 1900;
 }
-%footerLine{
+%footer-line{
     height: 1rem;
     position: fixed;
     width: 14rem;
     bottom: 0;
 }
-.footerDiv {
+.footer-div {
     position: fixed;
     // height: 10px;
     height: 4px;
@@ -151,7 +151,7 @@ footer {
         content: '';
         background: url("/images/footer-line-l.svg") no-repeat center; 
         background-size: contain;
-        @extend %footerLine;
+        @extend %footer-line;
         left: 8rem;
     }
 
@@ -159,7 +159,7 @@ footer {
         content: '';
         background: url("/images/footer-line-r.svg") no-repeat center;
         background-size: contain;
-        @extend %footerLine;
+        @extend %footer-line;
         right: 8rem;
     }
 }
@@ -194,7 +194,7 @@ footer {
 }
 
 // 內容-區塊
-.contentDiv {
+.content-div {
     height: 100%;
     padding-top: calc(0.5rem + 40px);
     padding-bottom: calc(0.5rem + 40px);
@@ -208,14 +208,14 @@ footer {
 
 // 主要內容
 .content {
-    @extend .contentDiv;
+    @extend .content-div;
     width: 100%;
 }
 
 .grid-conta
 
 // 主要內容-overflow
-.overflowAuto-x {
+.overflow-auto-x {
 
     overflow-x: scroll;
     overflow-y: hidden;
@@ -225,9 +225,7 @@ footer {
     // }
 }
 
-
-
-.overflowAuto-y {
+.overflow-auto-y {
     overflow-x: hidden;
     overflow-y: scroll;
 
@@ -236,13 +234,13 @@ footer {
     // }
 }
 
-.horizontalScroll {
+.horizontal-scroll {
     white-space: nowrap;
 }
 
 
 // 十字框線
-%crossDivLINE {
+%cross-div-line {
     content: '';
     position: absolute;
     width: 1px;
@@ -252,7 +250,7 @@ footer {
 }
 
 //--------------------//
-.crossDiv {
+.cross-div {
     position: fixed;
     top: 0;
     height: 100%;
@@ -265,12 +263,12 @@ footer {
         position: relative;
 
         &:after {
-            @extend %crossDivLINE;
+            @extend %cross-div-line;
             right: 0;
         }
 
         &:nth-child(1):before {
-            @extend %crossDivLINE;
+            @extend %cross-div-line;
             left: 0;
         }
     }
@@ -294,8 +292,8 @@ footer {
 }
 
 // 瞄準鏡 
-.bottomSight,
-.topSight {
+.bottom-sight,
+.top-sight {
     // width: 100%;
     // height: 40px;
     // position: fixed;
@@ -309,7 +307,7 @@ footer {
 }
 
 $positon: 20%;
-$sightPosition:-20px;
+$sight-position:-20px;
 
 @mixin sight($coordinate:'', $top:auto, $bottom:auto) {
     content: $coordinate;
@@ -323,12 +321,12 @@ $sightPosition:-20px;
 }
 
 //-----------23.973875°N 120.982024°E--------//
-.topSight {
+.top-sight {
     top: 0;
 
     &:after,
     &:before {
-        @include sight($bottom: $sightPosition)
+        @include sight($bottom: $sight-position)
     }
 
     &:before {
@@ -342,7 +340,7 @@ $sightPosition:-20px;
     }
 }
 
-.bottomSight {
+.bottom-sight {
     bottom: 0;
 
     &:before,
@@ -355,14 +353,14 @@ $sightPosition:-20px;
     &:before {
         background: url("/images/bottomLeftSight.svg")no-repeat right bottom;
         left: $positon;
-        @include sight($coordinate: '23.973875°N', $top: $sightPosition)
+        @include sight($coordinate: '23.973875°N', $top: $sight-position)
     }
 
     &:after {
         text-align: right;
         background: url("/images/bottomRightSight.svg")no-repeat left bottom;
         right: $positon;
-        @include sight($coordinate: '120.982024°E', $top: $sightPosition)
+        @include sight($coordinate: '120.982024°E', $top: $sight-position)
     }
 }
 
@@ -372,7 +370,7 @@ $sightPosition:-20px;
     width: 40px;
     height: 40px;
     position: absolute;
-    border: 1px solid $lineColor;
+    border: 1px solid $line-color;
 }
 
 .corner-top-left {

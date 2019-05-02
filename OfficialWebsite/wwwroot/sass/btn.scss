@@ -24,13 +24,13 @@
 
         &:hover {
             color: $black;
-            background: $hoverWhite;
+            background: $hover-white;
         }
 
     }
 
     // 方形按鈕
-    &.btnSquare {
+    &.btn-square {
         width: 100%;
 
         &:before {
@@ -46,7 +46,7 @@
 
         &:hover,
         &:active {
-            background: $hoverWhite;
+            background: $hover-white;
             color: #000;
 
             &:before {
@@ -95,22 +95,22 @@
     }
 
     // 平行四邊形 header footer
-    &.leftTop,
-    &.rightTop,
-    &.leftBottom,
-    &.rightBottom {
+    &.left-top,
+    &.right-top,
+    &.left-bottom,
+    &.right-bottom {
         width: $width;
         height: $height;
         padding: 10px 0.5rem;
         text-align: center;
     }
 
-    &.leftTop,
-    &.rightTop {
+    &.left-top,
+    &.right-top {
         vertical-align: top;
     }
 
-    &.rightTop {
+    &.right-top {
         [class*="icon-"] {
             color: $black;
 
@@ -127,27 +127,27 @@
         // }
     }
 
-    &.leftTop {
+    &.left-top {
         position: relative;
         padding: 0;
         cursor: default;
         z-index: 2200;
     }
 
-    &.leftBottom {
+    &.left-bottom {
         background: $black;
 
         &:after {
 
-            @include biseauMixin(auto, auto, 0, $width, 0 $angle $angle 0, transparent transparent $black transparent);
+            @include biseau-mixin(auto, auto, 0, $width, 0 $angle $angle 0, transparent transparent $black transparent);
         }
     }
 
-    &.rightBottom {
+    &.right-bottom {
         background: $black;
 
         &:before {
-            @include biseauMixin(auto, $width, 0, auto, $angle $angle 0 0, transparent $black transparent transparent);
+            @include biseau-mixin(auto, $width, 0, auto, $angle $angle 0 0, transparent $black transparent transparent);
         }
     }
 

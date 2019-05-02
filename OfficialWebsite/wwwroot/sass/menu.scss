@@ -1,7 +1,7 @@
 @import 'mixin.scss';
 
 // menu
-.menuDiv {
+.menu-div {
     @include transition(all, 0.4s, ease, 0s);
     position: absolute;
     top: 0;
@@ -55,7 +55,7 @@
 
 
 // fireMenu
-.fireMenu {
+.fire-menu {
     background: $black;
     @include transition(all, 0.4s, ease, 0s);
     position: absolute;
@@ -79,18 +79,18 @@
 
         &::before {
 
-            @include biseauMixin(- $width, auto, 0, 0, 0 0 $width $width, transparent transparent $black transparent);
+            @include biseau-mixin(- $width, auto, 0, 0, 0 0 $width $width, transparent transparent $black transparent);
         }
 
         &:after {
 
-            @include biseauMixin(auto, auto, - $width, 0, $width 0 0 $width, $black transparent transparent transparent);
+            @include biseau-mixin(auto, auto, - $width, 0, $width 0 0 $width, $black transparent transparent transparent);
         }
     }
 
 
 
-    .fireContent {
+    .fire-content {
         border: 1px solid #fff;
         padding: 0.2rem;
         height: 100%;
@@ -112,7 +112,7 @@
     }
 
     // 焰
-    .fireLogo {
+    .fire-logo {
         @include transition(all, 0.4s, ease, 0s);
         opacity: 0;
         margin: 6rem 0.3rem;
@@ -128,7 +128,7 @@
     }
 
     // 警示線
-    .warningLines {
+    .warning-lines {
         position: absolute;
         overflow: hidden;
         width: calc(100% - 0.4rem);
@@ -166,7 +166,7 @@
         }
 
         // 警示線-hover
-        .warningLines {
+        .warning-lines {
             &:after {
                 content: '';
                 -webkit-animation: a-warningLines 2s linear;

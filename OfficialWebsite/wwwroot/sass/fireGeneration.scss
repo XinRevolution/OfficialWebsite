@@ -80,18 +80,18 @@
 }
 
 
-.charactersBg {
+.characters-bg {
     background: url("/images/concept02.jpg") no-repeat;
     background-size: cover;
     background-position-y: 30%;
-    @extend .fullScreenBg;
+    @extend .full-screenBg;
 
 }
 
 // 時間軸-季
 .seasonDiv {
     background: $black;
-    @extend .fullScreenBg;
+    @extend .full-screenBg;
 }
 
 .seasonInfo {
@@ -209,7 +209,7 @@
     &.expend {
         padding: 0;
 
-        .storyContent {
+        .story-content {
             display: block;
             vertical-align: top;
             color: #fff;
@@ -243,12 +243,12 @@
     z-index: -1;
 }
 
-.leftHand {
+.left-hand {
     background: url(/images/L-hand-02.png)center no-repeat;
     @extend ％hand;
 }
 
-.rightHand {
+.right-hand {
     background: url(/images/R-hand-02.png)center no-repeat;
     @extend ％hand;
     right: 0;

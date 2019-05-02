@@ -1,8 +1,8 @@
 $black: #292929;
 $gray: rgba(191, 191, 191, 0.6);
 $gray-light:#d8d8d8;
-$lineColor:rgba(255, 255, 255, 0.4);
-$hoverWhite: rgba(255, 255, 255, 0.8);
+$line-color:rgba(255, 255, 255, 0.4);
+$hover-white: rgba(255, 255, 255, 0.8);
 
 
 h1{
@@ -77,7 +77,7 @@ h4
 }
 
 // 媒體區塊
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -91,7 +91,7 @@ h4
 }
 
 // 全螢幕背景
-.fullScreenBg {
+.full-screenBg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -111,9 +111,8 @@ $angle: 40px;
 
 
 
-
 /*-----------*/
-@mixin biseauMixin($top:auto, $right:auto, $bottom:auto, $left:auto, $border-width:0 0 0 0, $border-color:transparent) {
+@mixin biseau-mixin($top:auto, $right:auto, $bottom:auto, $left:auto, $border-width:0 0 0 0, $border-color:transparent) {
   content: '';
   top: $top;
   right: $right;
@@ -286,7 +285,7 @@ $sec:1s;
 
 // 長方形標題
 
-.rectangleTitle {
+.rectangle-title {
   color: $black;
   padding: 0.5rem 0;
 

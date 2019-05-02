@@ -33,7 +33,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -42,11 +42,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg {
+.full-screenBg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -229,12 +229,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -249,11 +249,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -314,7 +314,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.menuDiv {
+.menu-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -326,18 +326,18 @@ h4 {
   width: 100%;
 }
 
-.menuDiv.menu-active {
+.menu-div.menu-active {
   opacity: 0.7;
   height: 100vh;
   background: #292929;
   z-index: 1500;
 }
 
-.menuDiv.menu-active nav {
+.menu-div.menu-active nav {
   height: 100%;
 }
 
-.menuDiv.menu-active nav:after {
+.menu-div.menu-active nav:after {
   margin: auto;
   width: 1px;
   height: 20rem;
@@ -349,11 +349,11 @@ h4 {
   bottom: 0;
 }
 
-.menuDiv.menu-active [class*="column-"] {
+.menu-div.menu-active [class*="column-"] {
   padding: 15% 0;
 }
 
-.menuDiv.menu-active [class*="column-"] a {
+.menu-div.menu-active [class*="column-"] a {
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -367,12 +367,12 @@ h4 {
   margin: 2.5rem 0;
 }
 
-.menuDiv.menu-active [class*="column-"] a:hover, .menuDiv.menu-active [class*="column-"] a:active {
+.menu-div.menu-active [class*="column-"] a:hover, .menu-div.menu-active [class*="column-"] a:active {
   background: #fff;
   color: #000;
 }
 
-.fireMenu {
+.fire-menu {
   background: #292929;
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
@@ -390,7 +390,7 @@ h4 {
   z-index: 999;
 }
 
-.fireMenu .close {
+.fire-menu .close {
   width: 10px;
   height: 40px;
   background: #292929;
@@ -399,7 +399,7 @@ h4 {
   top: calc(50% - 40px);
 }
 
-.fireMenu .close::before {
+.fire-menu .close::before {
   content: '';
   top: -10px;
   right: auto;
@@ -413,7 +413,7 @@ h4 {
   border-style: solid;
 }
 
-.fireMenu .close:after {
+.fire-menu .close:after {
   content: '';
   top: auto;
   right: auto;
@@ -427,14 +427,14 @@ h4 {
   border-style: solid;
 }
 
-.fireMenu .fireContent {
+.fire-menu .fire-content {
   border: 1px solid #fff;
   padding: 0.2rem;
   height: 100%;
   position: relative;
 }
 
-.fireMenu .fireContent:before {
+.fire-menu .fire-content:before {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -451,7 +451,7 @@ h4 {
   display: inline-block;
 }
 
-.fireMenu .fireLogo {
+.fire-menu .fire-logo {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -461,7 +461,7 @@ h4 {
   margin: 6rem 0.3rem;
 }
 
-.fireMenu a {
+.fire-menu a {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -474,7 +474,7 @@ h4 {
   color: #fff;
 }
 
-.fireMenu .warningLines {
+.fire-menu .warning-lines {
   position: absolute;
   overflow: hidden;
   width: calc(100% - 0.4rem);
@@ -484,7 +484,7 @@ h4 {
   left: 0;
 }
 
-.fireMenu .warningLines:after {
+.fire-menu .warning-lines:after {
   content: '';
   background: url("/images/warning-lines.svg");
   width: 200%;
@@ -492,21 +492,21 @@ h4 {
   display: block;
 }
 
-.fireMenu.sideMenu-active, .fireMenu:hover, .fireMenu:active {
+.fire-menu.sideMenu-active, .fire-menu:hover, .fire-menu:active {
   width: 8rem;
 }
 
-.fireMenu.sideMenu-active .fireContent:before, .fireMenu:hover .fireContent:before, .fireMenu:active .fireContent:before {
+.fire-menu.sideMenu-active .fireContent:before, .fire-menu:hover .fireContent:before, .fire-menu:active .fireContent:before {
   opacity: 1;
   color: #292929;
 }
 
-.fireMenu.sideMenu-active .fireLogo, .fireMenu:hover .fireLogo, .fireMenu:active .fireLogo {
+.fire-menu.sideMenu-active .fireLogo, .fire-menu:hover .fireLogo, .fire-menu:active .fireLogo {
   opacity: 1;
   display: block;
 }
 
-.fireMenu.sideMenu-active .warningLines:after, .fireMenu:hover .warningLines:after, .fireMenu:active .warningLines:after {
+.fire-menu.sideMenu-active .warning-lines:after, .fire-menu:hover .warning-lines:after, .fire-menu:active .warning-lines:after {
   content: '';
   -webkit-animation: a-warningLines 2s linear;
   /* Safari 4.0 - 8.0 */
@@ -515,13 +515,13 @@ h4 {
           animation-iteration-count: infinite;
 }
 
-.fireMenu.sideMenu-active a, .fireMenu:hover a, .fireMenu:active a {
+.fire-menu.sideMenu-active a, .fire-menu:hover a, .fire-menu:active a {
   opacity: 1;
   color: #ccc;
   text-align: center;
 }
 
-.fireMenu.sideMenu-active a:hover, .fireMenu.sideMenu-active a:active, .fireMenu:hover a:hover, .fireMenu:hover a:active, .fireMenu:active a:hover, .fireMenu:active a:active {
+.fire-menu.sideMenu-active a:hover, .fire-menu.sideMenu-active a:active, .fire-menu:hover a:hover, .fire-menu:hover a:active, .fire-menu:active a:hover, .fire-menu:active a:active {
   background: #fff;
   color: #000;
 }

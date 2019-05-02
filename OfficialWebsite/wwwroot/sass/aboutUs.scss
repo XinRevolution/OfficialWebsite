@@ -2,7 +2,7 @@
 
 // aboutUsDiv
 
-.aboutUsDiv {
+.aboutUs-div {
     @include transition(all, 0.4s, ease, 0s);
     position: absolute;
     top: 0;
@@ -16,7 +16,7 @@
         z-index: 1400;
     }
 
-    .aboutUsContent {
+    .aboutUs-content {
         font-size: 6rem;
         color: #fff;
     }

@@ -34,7 +34,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -43,11 +43,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -230,12 +230,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -250,11 +250,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -387,7 +387,7 @@ h4 {
   vertical-align: middle;
 }
 
-.charactersBg {
+.characters-bg {
   background: url("/images/concept02.jpg") no-repeat;
   background-size: cover;
   background-position-y: 30%;
@@ -499,7 +499,7 @@ h4 {
   padding: 0;
 }
 
-.storyDiv.expend .storyContent {
+.storyDiv.expend .story-content {
   display: block;
   vertical-align: top;
   color: #fff;
@@ -521,7 +521,7 @@ h4 {
   float: none;
 }
 
-％hand, .leftHand, .rightHand {
+％hand, .left-hand, .right-hand {
   background-size: 100% !important;
   width: 100%;
   height: 100%;
@@ -529,11 +529,11 @@ h4 {
   z-index: -1;
 }
 
-.leftHand {
+.left-hand {
   background: url(/images/L-hand-02.png) center no-repeat;
 }
 
-.rightHand {
+.right-hand {
   background: url(/images/R-hand-02.png) center no-repeat;
   right: 0;
 }

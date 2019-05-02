@@ -3752,12 +3752,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -3766,11 +3766,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3953,12 +3953,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -3973,11 +3973,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -4068,12 +4068,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -4082,11 +4082,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -4223,12 +4223,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -4243,11 +4243,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -4332,11 +4332,11 @@ h4 {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.btn.btnSquare {
+.btn.btn-square {
   width: 100%;
 }
 
-.btn.btnSquare:before {
+.btn.btn-square:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -4350,21 +4350,21 @@ h4 {
   margin: 0 0.3rem;
 }
 
-.btn.btnSquare:hover, .btn.btnSquare:active {
+.btn.btn-square:hover, .btn.btn-square:active {
   background: rgba(255, 255, 255, 0.8);
   color: #000;
 }
 
-.btn.btnSquare:hover:before, .btn.btnSquare:active:before {
+.btn.btn-square:hover:before, .btn.btn-square:active:before {
   content: '';
   background: #000;
 }
 
-.btn.btnSquare.gray {
+.btn.btn-square.gray {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.btn.btnSquare.gray:hover, .btn.btnSquare.gray:active {
+.btn.btn-square.gray:hover, .btn.btn-square.gray:active {
   background: #d8d8d8;
   color: #000;
 }
@@ -4389,37 +4389,37 @@ h4 {
   text-align: center;
 }
 
-.btn.leftTop, .btn.rightTop, .btn.leftBottom, .btn.rightBottom {
+.btn.left-top, .btn.right-top, .btn.left-bottom, .btn.right-bottom {
   width: 8rem;
   height: 40px;
   padding: 10px 0.5rem;
   text-align: center;
 }
 
-.btn.leftTop, .btn.rightTop {
+.btn.left-top, .btn.right-top {
   vertical-align: top;
 }
 
-.btn.rightTop [class*="icon-"] {
+.btn.right-top [class*="icon-"] {
   color: #292929;
 }
 
-.btn.rightTop [class*="icon-"]:hover {
+.btn.right-top [class*="icon-"]:hover {
   color: #d8d8d8;
 }
 
-.btn.leftTop {
+.btn.left-top {
   position: relative;
   padding: 0;
   cursor: default;
   z-index: 2200;
 }
 
-.btn.leftBottom {
+.btn.left-bottom {
   background: #292929;
 }
 
-.btn.leftBottom:after {
+.btn.left-bottom:after {
   content: '';
   top: auto;
   right: auto;
@@ -4433,11 +4433,11 @@ h4 {
   border-style: solid;
 }
 
-.btn.rightBottom {
+.btn.right-bottom {
   background: #292929;
 }
 
-.btn.rightBottom:before {
+.btn.right-bottom:before {
   content: '';
   top: auto;
   right: 8rem;
@@ -4493,12 +4493,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -4507,11 +4507,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -4648,12 +4648,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -4668,11 +4668,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -4733,7 +4733,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.menuDiv {
+.menu-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4745,18 +4745,18 @@ h4 {
   width: 100%;
 }
 
-.menuDiv.menu-active {
+.menu-div.menu-active {
   opacity: 0.7;
   height: 100vh;
   background: #292929;
   z-index: 1500;
 }
 
-.menuDiv.menu-active nav {
+.menu-div.menu-active nav {
   height: 100%;
 }
 
-.menuDiv.menu-active nav:after {
+.menu-div.menu-active nav:after {
   margin: auto;
   width: 1px;
   height: 20rem;
@@ -4768,11 +4768,11 @@ h4 {
   bottom: 0;
 }
 
-.menuDiv.menu-active [class*="column-"] {
+.menu-div.menu-active [class*="column-"] {
   padding: 15% 0;
 }
 
-.menuDiv.menu-active [class*="column-"] a {
+.menu-div.menu-active [class*="column-"] a {
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -4786,12 +4786,12 @@ h4 {
   margin: 2.5rem 0;
 }
 
-.menuDiv.menu-active [class*="column-"] a:hover, .menuDiv.menu-active [class*="column-"] a:active {
+.menu-div.menu-active [class*="column-"] a:hover, .menu-div.menu-active [class*="column-"] a:active {
   background: #fff;
   color: #000;
 }
 
-.fireMenu {
+.fire-menu {
   background: #292929;
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
@@ -4809,7 +4809,7 @@ h4 {
   z-index: 999;
 }
 
-.fireMenu .close {
+.fire-menu .close {
   width: 10px;
   height: 40px;
   background: #292929;
@@ -4818,7 +4818,7 @@ h4 {
   top: calc(50% - 40px);
 }
 
-.fireMenu .close::before {
+.fire-menu .close::before {
   content: '';
   top: -10px;
   right: auto;
@@ -4832,7 +4832,7 @@ h4 {
   border-style: solid;
 }
 
-.fireMenu .close:after {
+.fire-menu .close:after {
   content: '';
   top: auto;
   right: auto;
@@ -4846,14 +4846,14 @@ h4 {
   border-style: solid;
 }
 
-.fireMenu .fireContent {
+.fire-menu .fire-content {
   border: 1px solid #fff;
   padding: 0.2rem;
   height: 100%;
   position: relative;
 }
 
-.fireMenu .fireContent:before {
+.fire-menu .fire-content:before {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4870,7 +4870,7 @@ h4 {
   display: inline-block;
 }
 
-.fireMenu .fireLogo {
+.fire-menu .fire-logo {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4880,7 +4880,7 @@ h4 {
   margin: 6rem 0.3rem;
 }
 
-.fireMenu a {
+.fire-menu a {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4893,7 +4893,7 @@ h4 {
   color: #fff;
 }
 
-.fireMenu .warningLines {
+.fire-menu .warning-lines {
   position: absolute;
   overflow: hidden;
   width: calc(100% - 0.4rem);
@@ -4903,7 +4903,7 @@ h4 {
   left: 0;
 }
 
-.fireMenu .warningLines:after {
+.fire-menu .warning-lines:after {
   content: '';
   background: url("/images/warning-lines.svg");
   width: 200%;
@@ -4911,21 +4911,21 @@ h4 {
   display: block;
 }
 
-.fireMenu.sideMenu-active, .fireMenu:hover, .fireMenu:active {
+.fire-menu.sideMenu-active, .fire-menu:hover, .fire-menu:active {
   width: 8rem;
 }
 
-.fireMenu.sideMenu-active .fireContent:before, .fireMenu:hover .fireContent:before, .fireMenu:active .fireContent:before {
+.fire-menu.sideMenu-active .fireContent:before, .fire-menu:hover .fireContent:before, .fire-menu:active .fireContent:before {
   opacity: 1;
   color: #292929;
 }
 
-.fireMenu.sideMenu-active .fireLogo, .fireMenu:hover .fireLogo, .fireMenu:active .fireLogo {
+.fire-menu.sideMenu-active .fireLogo, .fire-menu:hover .fireLogo, .fire-menu:active .fireLogo {
   opacity: 1;
   display: block;
 }
 
-.fireMenu.sideMenu-active .warningLines:after, .fireMenu:hover .warningLines:after, .fireMenu:active .warningLines:after {
+.fire-menu.sideMenu-active .warning-lines:after, .fire-menu:hover .warning-lines:after, .fire-menu:active .warning-lines:after {
   content: '';
   -webkit-animation: a-warningLines 2s linear;
   /* Safari 4.0 - 8.0 */
@@ -4934,13 +4934,13 @@ h4 {
           animation-iteration-count: infinite;
 }
 
-.fireMenu.sideMenu-active a, .fireMenu:hover a, .fireMenu:active a {
+.fire-menu.sideMenu-active a, .fire-menu:hover a, .fire-menu:active a {
   opacity: 1;
   color: #ccc;
   text-align: center;
 }
 
-.fireMenu.sideMenu-active a:hover, .fireMenu.sideMenu-active a:active, .fireMenu:hover a:hover, .fireMenu:hover a:active, .fireMenu:active a:hover, .fireMenu:active a:active {
+.fire-menu.sideMenu-active a:hover, .fire-menu.sideMenu-active a:active, .fire-menu:hover a:hover, .fire-menu:hover a:active, .fire-menu:active a:hover, .fire-menu:active a:active {
   background: #fff;
   color: #000;
 }
@@ -5023,12 +5023,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -5037,11 +5037,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5178,12 +5178,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -5198,11 +5198,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -5263,7 +5263,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.aboutUsDiv {
+.aboutUs-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -5274,7 +5274,7 @@ h4 {
   opacity: 0;
 }
 
-.aboutUsDiv.aboutUs-active {
+.aboutUs-div.aboutUs-active {
   opacity: 1;
   background: #292929;
   width: 100%;
@@ -5282,7 +5282,7 @@ h4 {
   z-index: 1400;
 }
 
-.aboutUsDiv .aboutUsContent {
+.aboutUs-div .aboutUs-content {
   font-size: 6rem;
   color: #fff;
 }
@@ -5317,12 +5317,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -5331,11 +5331,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5472,12 +5472,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -5492,11 +5492,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -5557,7 +5557,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.masterVision {
+.master-vision {
   position: absolute;
   top: 0;
   overflow: hidden;
@@ -5577,7 +5577,7 @@ h4 {
   z-index: 2;
 }
 
-.bgRed {
+.bg-red {
   background-image: radial-gradient(circle at 20% -50%, #6d1717, #0b524c 10%, #000000);
   position: absolute;
   width: 100%;
@@ -5628,7 +5628,7 @@ h4 {
   background-size: 3px 3px;
 }
 
-.logoHeader {
+.logo-header {
   display: inline-block;
   width: calc(100% - 16rem);
   padding-top: 4px;
@@ -5637,7 +5637,7 @@ h4 {
   height: 40px;
 }
 
-.logoHeader a {
+.logo-header a {
   display: block;
   margin: auto;
   position: relative;
@@ -5647,7 +5647,7 @@ h4 {
   cursor: pointer;
 }
 
-.logoHeader a .xLogo {
+.logo-header a .xLogo {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -5660,11 +5660,11 @@ h4 {
   background-position: center;
 }
 
-.logoHeader a .xLogo:hover {
+.logo-header a .xLogo:hover {
   opacity: 0.4;
 }
 
-.logoX {
+.logo-x {
   position: absolute;
   margin: auto;
   display: block;
@@ -5680,7 +5680,7 @@ h4 {
   mix-blend-mode: difference;
 }
 
-.logoX.icon-logo {
+.logo-x.icon-logo {
   color: #00A9E0;
   font-size: 5rem;
 }
@@ -5715,12 +5715,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -5729,11 +5729,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5870,12 +5870,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -5890,11 +5890,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -5955,28 +5955,28 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.blogData {
+.blog-data {
   color: #fc5b00;
 }
 
-.newsImg {
+.news-img {
   width: 40%;
   height: 100%;
   display: inline-block;
   float: left;
 }
 
-.newsImg img {
+.news-img img {
   height: 100%;
 }
 
-.newsContent {
+.news-content {
   width: 60%;
   height: 100%;
   display: inline-block;
 }
 
-.newsDiv {
+.news-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -5991,23 +5991,23 @@ h4 {
   color: #fff;
 }
 
-.newsDiv .themeTitle {
+.news-div .themeTitle {
   color: #fff;
 }
 
-.newsDiv .themeTitle .archives {
+.news-div .themeTitle .archives {
   margin: 1rem 0;
 }
 
-.newsDiv .themeTitle .titleGroup {
+.news-div .themeTitle .title-group {
   margin: 4rem 0 1rem 0;
 }
 
-.newsDiv .themeTitle .titleGroup .info {
+.news-div .themeTitle .title-group .info {
   margin: 0.5rem 0;
 }
 
-.newsDiv .themeTitle:before {
+.news-div .themeTitle:before {
   content: '';
   background: url(/images/theme.svg) no-repeat center;
   background-size: cover;
@@ -6018,7 +6018,7 @@ h4 {
   top: 0;
 }
 
-.newsDiv .themeTitle:after {
+.news-div .themeTitle:after {
   content: '';
   width: 100%;
   height: 0.4rem;
@@ -6028,7 +6028,7 @@ h4 {
   left: 0;
 }
 
-.newsDiv.refresh:after {
+.news-div.refresh:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -6041,14 +6041,14 @@ h4 {
   animation: a-refresh 1s ease reverse;
 }
 
-.newsDiv .newsContent {
+.news-div .news-content {
   width: 100%;
   display: inline-block;
   padding: 1rem 0;
   float: left;
 }
 
-.newsDiv .news {
+.news-div .news {
   overflow: initial;
   text-overflow: initial;
   display: block;
@@ -6056,12 +6056,12 @@ h4 {
   -webkit-box-orient: initial;
 }
 
-.newsDiv .newsImg {
+.news-div .news-img {
   width: 100%;
   height: auto;
 }
 
-.newsDiv .newsImg img {
+.news-div .news-img img {
   display: block;
   margin: 0 auto;
   width: -webkit-max-content;
@@ -6070,19 +6070,19 @@ h4 {
   height: 100%;
 }
 
-.newsDiv .btn {
+.news-div .btn {
   display: inline-block;
   width: 5rem;
   float: right;
   margin-top: 0.5rem;
 }
 
-.dateGroup {
+.date-group {
   background: #262525;
   height: calc(100% - (1rem + 80px));
 }
 
-.dateGroup:after {
+.date-group:after {
   content: '';
   width: 100%;
   height: 0.4rem;
@@ -6092,28 +6092,28 @@ h4 {
   left: 0;
 }
 
-.dateGroup .dateDiv {
+.date-group .date-div {
   color: #fff;
   padding: 0.5rem;
   height: calc((100% - (1rem + 80px )) / 2);
 }
 
-.dateGroup .dateDiv ul {
+.date-group .date-div ul {
   font-size: 0.9rem;
   padding: 0.5rem;
 }
 
-.dateGroup .dateDiv ul li {
+.date-group .date-div ul li {
   margin: 0.5rem 0;
 }
 
-.dateGroup .dateDiv ul li::before {
+.date-group .date-div ul li::before {
   content: '—';
   margin-right: 0.25rem;
   opacity: 0.2;
 }
 
-.dateGroup .dateDiv:first-child {
+.date-group .date-div:first-child {
   margin-top: 40px;
 }
 
@@ -6172,12 +6172,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -6186,11 +6186,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -6327,12 +6327,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -6347,11 +6347,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -6412,19 +6412,19 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.workList {
+.work-list {
   width: 100%;
 }
 
-.workList:hover .workDiv {
+.work-list:hover .work-div {
   opacity: 0.2;
 }
 
-.workList:hover .workDiv:hover {
+.work-list:hover .work-div:hover {
   opacity: 1;
 }
 
-.workDiv {
+.work-div {
   transition: all 0.6s ease 0s;
   -webkit-transition: all 0.6s ease 0s;
   -moz-transition: all 0.6s ease 0s;
@@ -6437,29 +6437,29 @@ h4 {
   margin: 0 0.5rem;
 }
 
-.workDiv .info {
+.work-div .info {
   white-space: normal;
   display: none;
   font-size: 0.8rem;
   color: #292929;
 }
 
-.workDiv:hover {
+.work-div:hover {
   width: 40rem;
   margin-right: 50%;
 }
 
-.workDiv:hover .workImg {
+.work-div:hover .work-img {
   display: inline-block;
 }
 
-.workDiv:hover .workContent {
+.work-div:hover .work-content {
   width: 50%;
   padding: 0 0.5rem;
   display: inline-block;
 }
 
-.workDiv:hover .workContent .info {
+.work-div:hover .work-content .info {
   display: block;
 }
 
@@ -6493,12 +6493,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -6507,11 +6507,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -6648,12 +6648,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -6668,11 +6668,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -6733,7 +6733,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.issuesHeight {
+.issues-height {
   height: calc((100vh - 80px)/4);
   margin-bottom: 0.75rem;
 }
@@ -6750,7 +6750,7 @@ h4 {
   opacity: 1;
 }
 
-.issueDate {
+.issue-date {
   width: 100%;
   background: #292929;
   color: #fff;
@@ -6759,7 +6759,7 @@ h4 {
   border-radius: 4px;
 }
 
-.issueDate .date {
+.issue-date .date {
   background: #ccc;
   color: #292929;
   width: -webkit-max-content;
@@ -6770,7 +6770,7 @@ h4 {
   border-radius: 4px;
 }
 
-.issuesDiv {
+.issue-div {
   display: block;
   height: 100%;
   background: #292929;
@@ -6782,47 +6782,47 @@ h4 {
   -ms-transition: all 0.4s ease 0s;
 }
 
-.issuesDiv:hover {
+.issue-div:hover {
   -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
   -webkit-transform: translate(1rem, -1rem);
           transform: translate(1rem, -1rem);
 }
 
-.issuesDiv .issuesImg,
-.issuesDiv .issuesContent {
+.issue-div .issues-img,
+.issue-div .issues-content {
   display: inline-block;
   float: left;
 }
 
-.issuesDiv .issuesImg {
+.issue-div .issues-img {
   width: 40%;
   overflow: hidden;
   height: 100%;
 }
 
-.issuesDiv .issuesImg img {
+.issue-div .issues-img img {
   max-width: none;
   height: 100%;
 }
 
-.issuesDiv .issuesContent {
+.issue-div .issues-content {
   position: absolute;
   bottom: 0;
   width: 60%;
   padding: 1rem;
 }
 
-.issueDiv {
+.issue-div {
   height: 100%;
 }
 
-.issueDiv .timeGroup .timeNode {
+.issue-div .time-group .time-node {
   margin: 0 0.5rem 0.5rem;
   position: relative;
 }
 
-.issueDiv .timeGroup .timeNode:before {
+.issue-div .time-group .time-node:before {
   content: '';
   width: 1rem;
   height: 1rem;
@@ -6833,22 +6833,22 @@ h4 {
   position: absolute;
 }
 
-.issueDiv .timeGroup .issueDate {
+.issue-div .time-group .issue-date {
   margin: 0 0.5rem;
   padding: 0.2rem;
   width: 10rem;
 }
 
-.issueDiv .issueContent {
+.issue-div .issue-content {
   padding-top: 1.5rem;
 }
 
-.issueDiv .issueContent p,
-.issueDiv .issueContent img {
+.issue-div .issue-content p,
+.issue-div .issue-content img {
   margin-bottom: 0.5rem;
 }
 
-.issueDiv .issueContent img {
+.issue-div .issue-content img {
   width: 100%;
 }
 
@@ -6882,12 +6882,12 @@ h4 {
   position: relative;
 }
 
-.border, .dateGroup .dateDiv {
+.border, .date-group .date-div {
   border: 1px solid #d8d8d8;
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -6896,11 +6896,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg, .charactersBg, .seasonDiv {
+.full-screenBg, .characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -7037,12 +7037,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -7057,11 +7057,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -7194,7 +7194,7 @@ h4 {
   vertical-align: middle;
 }
 
-.charactersBg {
+.characters-bg {
   background: url("/images/concept02.jpg") no-repeat;
   background-size: cover;
   background-position-y: 30%;
@@ -7306,7 +7306,7 @@ h4 {
   padding: 0;
 }
 
-.storyDiv.expend .storyContent {
+.storyDiv.expend .story-content {
   display: block;
   vertical-align: top;
   color: #fff;
@@ -7328,7 +7328,7 @@ h4 {
   float: none;
 }
 
-％hand, .leftHand, .rightHand {
+％hand, .left-hand, .right-hand {
   background-size: 100% !important;
   width: 100%;
   height: 100%;
@@ -7336,11 +7336,11 @@ h4 {
   z-index: -1;
 }
 
-.leftHand {
+.left-hand {
   background: url(/images/L-hand-02.png) center no-repeat;
 }
 
-.rightHand {
+.right-hand {
   background: url(/images/R-hand-02.png) center no-repeat;
   right: 0;
 }
@@ -7383,7 +7383,7 @@ h4 {
   margin: 0.5rem;
 }
 
-.bgBlock {
+.bg-block {
   position: fixed;
   height: 100%;
   left: 0;
@@ -7392,7 +7392,7 @@ h4 {
   z-index: 1;
 }
 
-.bgBlock.horizontal {
+.bg-block.horizontal {
   top: auto;
   bottom: 0;
   width: 100%;
@@ -7477,7 +7477,7 @@ header div {
   float: left;
 }
 
-header.bright .xLogo {
+header.bright .x-logo {
   background: url(/images/X-logo-w.svg) no-repeat !important;
   background-size: contain !important;
   background-position: center !important;
@@ -7504,14 +7504,14 @@ footer {
   z-index: 1900;
 }
 
-.footerDiv:before, .footerDiv:after {
+.footer-div:before, .footer-div:after {
   height: 1rem;
   position: fixed;
   width: 14rem;
   bottom: 0;
 }
 
-.footerDiv {
+.footer-div {
   position: fixed;
   height: 4px;
   bottom: 0;
@@ -7522,14 +7522,14 @@ footer {
   background: #292929;
 }
 
-.footerDiv:before {
+.footer-div:before {
   content: '';
   background: url("/images/footer-line-l.svg") no-repeat center;
   background-size: contain;
   left: 8rem;
 }
 
-.footerDiv:after {
+.footer-div:after {
   content: '';
   background: url("/images/footer-line-r.svg") no-repeat center;
   background-size: contain;
@@ -7567,7 +7567,7 @@ footer {
   background: #000;
 }
 
-.contentDiv, .content {
+.content-div, .content {
   height: 100%;
   padding-top: calc(0.5rem + 40px);
   padding-bottom: calc(0.5rem + 40px);
@@ -7583,21 +7583,21 @@ footer {
   width: 100%;
 }
 
-.grid-conta .overflowAuto-x {
+.grid-conta .overflow-auto-x {
   overflow-x: scroll;
   overflow-y: hidden;
 }
 
-.overflowAuto-y {
+.overflow-auto-y {
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-.horizontalScroll {
+.horizontal-scroll {
   white-space: nowrap;
 }
 
-.crossDiv div:after, .crossDiv div:nth-child(1):before {
+.cross-div div:after, .cross-div div:nth-child(1):before {
   content: '';
   position: absolute;
   width: 1px;
@@ -7607,25 +7607,25 @@ footer {
   top: -40px;
 }
 
-.crossDiv {
+.cross-div {
   position: fixed;
   top: 0;
   height: 100%;
   z-index: -1;
 }
 
-.crossDiv div {
+.cross-div div {
   height: 100%;
   padding-top: calc(0.5rem + 40px);
   padding-bottom: calc(0.5rem + 40px);
   position: relative;
 }
 
-.crossDiv div:after {
+.cross-div div:after {
   right: 0;
 }
 
-.crossDiv div:nth-child(1):before {
+.cross-div div:nth-child(1):before {
   left: 0;
 }
 
@@ -7642,8 +7642,8 @@ footer {
   width: 25%;
 }
 
-.bottomSight,
-.topSight {
+.bottom-sight,
+.top-sight {
   width: 80%;
   margin: 0 10%;
   height: 40px;
@@ -7652,11 +7652,11 @@ footer {
   z-index: 1000;
 }
 
-.topSight {
+.top-sight {
   top: 0;
 }
 
-.topSight:after, .topSight:before {
+.top-sight:after, .top-sight:before {
   content: "";
   bottom: -20px;
   top: auto;
@@ -7667,27 +7667,27 @@ footer {
   mix-blend-mode: difference;
 }
 
-.topSight:before {
+.top-sight:before {
   background: url("/images/topLeftSight.svg") no-repeat right top;
   left: 20%;
 }
 
-.topSight:after {
+.top-sight:after {
   background: url("/images/topRightSight.svg") no-repeat left top;
   right: 20%;
 }
 
-.bottomSight {
+.bottom-sight {
   bottom: 0;
 }
 
-.bottomSight:before, .bottomSight:after {
+.bottom-sight:before, .bottom-sight:after {
   mix-blend-mode: difference;
   color: rgba(191, 191, 191, 0.6);
   font-size: 0.5rem;
 }
 
-.bottomSight:before {
+.bottom-sight:before {
   background: url("/images/bottomLeftSight.svg") no-repeat right bottom;
   left: 20%;
   content: "23.973875°N";
@@ -7700,7 +7700,7 @@ footer {
   mix-blend-mode: difference;
 }
 
-.bottomSight:after {
+.bottom-sight:after {
   text-align: right;
   background: url("/images/bottomRightSight.svg") no-repeat left bottom;
   right: 20%;

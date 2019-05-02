@@ -33,7 +33,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -42,11 +42,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg {
+.full-screenBg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -229,12 +229,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -249,11 +249,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -314,19 +314,19 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.workList {
+.work-list {
   width: 100%;
 }
 
-.workList:hover .workDiv {
+.work-list:hover .work-div {
   opacity: 0.2;
 }
 
-.workList:hover .workDiv:hover {
+.work-list:hover .work-div:hover {
   opacity: 1;
 }
 
-.workDiv {
+.work-div {
   transition: all 0.6s ease 0s;
   -webkit-transition: all 0.6s ease 0s;
   -moz-transition: all 0.6s ease 0s;
@@ -339,29 +339,29 @@ h4 {
   margin: 0 0.5rem;
 }
 
-.workDiv .info {
+.work-div .info {
   white-space: normal;
   display: none;
   font-size: 0.8rem;
   color: #292929;
 }
 
-.workDiv:hover {
+.work-div:hover {
   width: 40rem;
   margin-right: 50%;
 }
 
-.workDiv:hover .workImg {
+.work-div:hover .work-img {
   display: inline-block;
 }
 
-.workDiv:hover .workContent {
+.work-div:hover .work-content {
   width: 50%;
   padding: 0 0.5rem;
   display: inline-block;
 }
 
-.workDiv:hover .workContent .info {
+.work-div:hover .work-content .info {
   display: block;
 }
 /*# sourceMappingURL=work.css.map */

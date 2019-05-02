@@ -33,7 +33,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-.mediaContent {
+.media-content {
   vertical-align: middle;
   display: inline-block;
   margin: 10px 0.5rem 10px 0;
@@ -42,11 +42,11 @@ h4 {
   background: #292929;
 }
 
-.mediaContent:first-child {
+.media-content:first-child {
   margin-left: 0.5rem;
 }
 
-.fullScreenBg {
+.full-screenBg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -229,12 +229,12 @@ h4 {
   }
 }
 
-.rectangleTitle {
+.rectangle-title {
   color: #292929;
   padding: 0.5rem 0;
 }
 
-.rectangleTitle:before {
+.rectangle-title:before {
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -249,11 +249,11 @@ h4 {
   vertical-align: middle;
 }
 
-.rectangleTitle.light {
+.rectangle-title.light {
   color: #fff;
 }
 
-.rectangleTitle.light:before {
+.rectangle-title.light:before {
   background: #fff;
 }
 
@@ -314,7 +314,7 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.issuesHeight {
+.issues-height {
   height: calc((100vh - 80px)/4);
   margin-bottom: 0.75rem;
 }
@@ -331,7 +331,7 @@ h4 {
   opacity: 1;
 }
 
-.issueDate {
+.issue-date {
   width: 100%;
   background: #292929;
   color: #fff;
@@ -340,7 +340,7 @@ h4 {
   border-radius: 4px;
 }
 
-.issueDate .date {
+.issue-date .date {
   background: #ccc;
   color: #292929;
   width: -webkit-max-content;
@@ -351,7 +351,7 @@ h4 {
   border-radius: 4px;
 }
 
-.issuesDiv {
+.issue-div {
   display: block;
   height: 100%;
   background: #292929;
@@ -363,47 +363,47 @@ h4 {
   -ms-transition: all 0.4s ease 0s;
 }
 
-.issuesDiv:hover {
+.issue-div:hover {
   -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
   -webkit-transform: translate(1rem, -1rem);
           transform: translate(1rem, -1rem);
 }
 
-.issuesDiv .issuesImg,
-.issuesDiv .issuesContent {
+.issue-div .issues-img,
+.issue-div .issues-content {
   display: inline-block;
   float: left;
 }
 
-.issuesDiv .issuesImg {
+.issue-div .issues-img {
   width: 40%;
   overflow: hidden;
   height: 100%;
 }
 
-.issuesDiv .issuesImg img {
+.issue-div .issues-img img {
   max-width: none;
   height: 100%;
 }
 
-.issuesDiv .issuesContent {
+.issue-div .issues-content {
   position: absolute;
   bottom: 0;
   width: 60%;
   padding: 1rem;
 }
 
-.issueDiv {
+.issue-div {
   height: 100%;
 }
 
-.issueDiv .timeGroup .timeNode {
+.issue-div .time-group .time-node {
   margin: 0 0.5rem 0.5rem;
   position: relative;
 }
 
-.issueDiv .timeGroup .timeNode:before {
+.issue-div .time-group .time-node:before {
   content: '';
   width: 1rem;
   height: 1rem;
@@ -414,22 +414,22 @@ h4 {
   position: absolute;
 }
 
-.issueDiv .timeGroup .issueDate {
+.issue-div .time-group .issue-date {
   margin: 0 0.5rem;
   padding: 0.2rem;
   width: 10rem;
 }
 
-.issueDiv .issueContent {
+.issue-div .issue-content {
   padding-top: 1.5rem;
 }
 
-.issueDiv .issueContent p,
-.issueDiv .issueContent img {
+.issue-div .issue-content p,
+.issue-div .issue-content img {
   margin-bottom: 0.5rem;
 }
 
-.issueDiv .issueContent img {
+.issue-div .issue-content img {
   width: 100%;
 }
 /*# sourceMappingURL=issue.css.map */

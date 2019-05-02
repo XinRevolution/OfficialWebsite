@@ -1,7 +1,7 @@
 @import 'mixin.scss';
 
 // 主視覺
-.masterVision {
+.master-vision {
     position: absolute;
     top: 0;
     overflow: hidden;
@@ -22,7 +22,7 @@
     z-index: 2;
 }
 
-.bgRed {
+.bg-red {
     // background-image: radial-gradient(circle at 104% 155%, #300b0b, #461b1b 10%, #ff9f9f);
     // background-image: radial-gradient(circle at 1700% 200%, #300b0b, #000000 10%, #ffb3b7);
     background-image: radial-gradient(circle at 20% -50%, #6d1717, #0b524c 10%, #000000);
@@ -82,7 +82,7 @@
     // z-index: 3;
 }
 
-.logoHeader {
+.logo-header {
     display: inline-block;
     width: calc(100% - 16rem);
     padding-top: 4px;
@@ -116,7 +116,7 @@
 }
 
 
-.logoX {
+.logo-x {
     position: absolute;
     margin: auto;
     display: block;

@@ -2,11 +2,11 @@
 
 //news
 
-.blogData {
+.blog-data {
     color: #fc5b00;
 }
 
-.newsImg {
+.news-img {
     width: 40%;
     height: 100%;
     display: inline-block;
@@ -17,7 +17,7 @@
     }
 }
 
-.newsContent {
+.news-content {
     width: 60%;
     height: 100%;
     display: inline-block;
@@ -25,7 +25,7 @@
 
 
 
-.newsDiv {
+.news-div {
     @include transition(all, 0.4s, ease, 0s);
     // background: rgba(0, 0, 0, 0.5);
     background: #262525;
@@ -46,7 +46,7 @@
             margin: 1rem 0;
         }
 
-        .titleGroup {
+        .title-group {
             margin: 4rem 0 1rem 0;
 
             .info {
@@ -92,7 +92,7 @@
 
     }
   
-    .newsContent {
+    .news-content {
         width: 100%;
         display: inline-block;
         padding:1rem 0;
@@ -108,7 +108,7 @@
         -webkit-box-orient: initial;
     }
 
-    .newsImg {
+    .news-img {
         width: 100%;
         height: auto;
 
@@ -223,7 +223,7 @@
 }
 
 
-.dateGroup {
+.date-group {
     background: #262525;
     height: calc(100% - (1rem + 80px));
 
@@ -237,7 +237,7 @@
         left: 0;
     }
 
-    .dateDiv {
+    .date-div {
         @extend .border;
         color: #fff;
         padding: 0.5rem;

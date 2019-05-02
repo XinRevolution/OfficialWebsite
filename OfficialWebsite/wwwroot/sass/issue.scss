@@ -1,6 +1,6 @@
 @import 'mixin.scss';
 
-.issuesHeight {
+.issues-height {
     height: calc((100vh - 80px)/4);
     margin-bottom: 0.75rem;
 }
@@ -21,7 +21,7 @@
 
 // 議題時間樣式
 
-.issueDate {
+.issue-date {
     width: 100%;
     background: $black;
     color: #fff;
@@ -40,7 +40,7 @@
 }
 
 // 複數議題
-.issuesDiv {
+.issue-div {
     display: block;
     height: 100%;
     background: $black;
@@ -54,14 +54,14 @@
 
 
 
-    .issuesImg,
-    .issuesContent {
+    .issues-img,
+    .issues-content {
         display: inline-block;
         float: left;
     }
 
 
-    .issuesImg {
+    .issues-img {
         width: 40%;
         overflow: hidden;
         height: 100%;
@@ -73,7 +73,7 @@
         }
     }
 
-    .issuesContent {
+    .issues-content {
         position: absolute;
         bottom: 0;
         width: 60%;
@@ -84,16 +84,16 @@
 
 // 單數議題
 
-.issueDiv {
+.issue-div {
     height: 100%;
     // overflow: hidden;
     // background: #ccc;
 
-    .timeGroup {
+    .time-group {
 
 
         //    時間節點
-        .timeNode {
+        .time-node {
             margin: 0 0.5rem 0.5rem;
             position: relative;
 
@@ -110,7 +110,7 @@
         }
 
         //    日期樣式
-        .issueDate {
+        .issue-date {
             margin: 0 0.5rem;
             padding: 0.2rem;
             width: 10rem;
@@ -121,7 +121,7 @@
     }
 
     //    議題內容
-    .issueContent {
+    .issue-content {
         padding-top: 1.5rem;
 
         p,
