@@ -1,5 +1,95 @@
 ﻿@{
-    ViewBag.Transition = TransitionType.HORIZONTAL;
+ViewBag.Transition = TransitionType.HORIZONTAL;
 }
 
-<h1>首頁</h1>
+<!-- <h1>首頁</h1> -->
+<style>
+    .section-1 {
+        background-image: url("/images/index.png");
+    }
+
+    .section-3 {
+        background-image: url("/images/X-logo.svg");
+    }
+
+    .out {
+        height: 1300px;
+    }
+
+    .wrapper {
+        overflow-y: scroll;
+    }
+
+    .article {
+
+        margin: 0 auto;
+        height: 100vh;
+        padding: 40px;
+        font: 24px 'Arial';
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        line-height: 28px;
+    }
+
+    .test {
+        top: -20%;
+    }
+
+    .off {
+        top: -80%;
+    }
+
+    .moon {
+        transition: all 1s ease;
+    }
+</style>
+<div class="js-ctrl-background h100" data-header="dark">
+    <!-- 主視覺 -->
+    <div class="masterVision">
+        <div class="">
+            <!-- <div class="wing"></div> -->
+            <div class="adj"></div>
+            <div class="moon"></div>
+            <!-- <div class="bgRed"></div> -->
+        </div>
+    </div>
+    <!-- 圓形準心 -->
+    <div class="concentric"></div>
+    <div class="index-circle"></div>
+    <!-- Index -->
+    <div class="grid-container h100 relative">
+        <!-- 導覽區 -->
+        <div class="sign">
+            <nav>
+                <a class="prev" href="#">PREV</a>
+                <a class="next" asp-controller="Home" asp-action="News">NEXT</a>
+            </nav>
+            <div class="now">Index</div>
+        </div>
+        <div>
+            <h2>首頁</h2>
+            <div>內容</div>
+            <div class="logoX icon-logo"></div>
+            <!-- 視差捲軸 測試 -->
+            <div class="out">
+                <div class="article section-1">
+                    TEST-1 <br>
+                    TEST-1 <br>
+                    TEST-1 <br>
+                </div>
+                <div class="article section-2">
+                    TEST-2 <br>
+                    TEST-2 <br>
+                    TEST-2 <br>
+                </div>
+                <div class="article section-3">
+                    TEST-3 <br>
+                    TEST-3 <br>
+                    TEST-3 <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
