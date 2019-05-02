@@ -31,7 +31,7 @@
     <div class='@ViewBag.Transition' id="js-layout-block-transition">XIN_REVOLUTION</div>
 
     @* Header *@
-  <header class="js-style-toggleable">
+    <header class="js-style-toggleable">
         <!-- 操作區 -->
         <div class="headerDiv">
             <!-- 漢堡圖 -->
@@ -56,14 +56,34 @@
                 <a class="btn icon-search"></a>
             </div>
         </div>
-
-      
     </header>
     @* Main Content *@
-    <div class="container body-content">
+    <div class="">
         @*務必保留 RenderBody *@
-        @RenderBody()
-        <hr />
+      <div class="wrapper">
+        <div class="h100 relative">
+            <div class="content">
+                @RenderBody()
+            </div>
+
+            <div class="js-style-toggleable">
+                <div class="topSight"></div>
+                <div class="bottomSight">
+                    <!-- circle-g -->
+                    <embed class="circle-g" src="/images/circle-g .svg" type="image/svg+xml" />
+                </div>
+                <div class="grid-container">
+                    <div class="crossDiv">
+                        <div class="column-6 "></div>
+                        <div class="column-6 "></div>
+                        <div class="column-6 "></div>
+                        <div class="column-6 "></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
         <footer>
             <div class="btn borderTop leftBottom">
                 <div class="btn btnSquare" id="btn-aboutUs-toggle">ABOUT_US</div>
@@ -80,18 +100,18 @@
     </div>
 
     @* Menu *@
-        <div class="menuDiv" id="block-menu">
-            <nav class="grid-container ">
-                <div class="column-12 h100">
-                    <a asp-controller="Home" asp-action="Index">INDEX</a>
-                    <a asp-controller="Home" asp-action="News">NEWS</a>
-                    <a asp-controller="Home" asp-action="Works">WORKS</a>
-                    <a asp-controller="Home" asp-action="Issues">ISSUES</a>
-                    <!-- <a asp-controller="Home" asp-action="Store">Store</a>-->
-                </div>
-                <div class="column-12 h100"></div>
-            </nav>
-        </div>
+    <div class="menuDiv" id="block-menu">
+        <nav class="grid-container ">
+            <div class="column-12 h100">
+                <a asp-controller="Home" asp-action="Index">INDEX</a>
+                <a asp-controller="Home" asp-action="News">NEWS</a>
+                <a asp-controller="Home" asp-action="Works">WORKS</a>
+                <a asp-controller="Home" asp-action="Issues">ISSUES</a>
+                <!-- <a asp-controller="Home" asp-action="Store">Store</a>-->
+            </div>
+            <div class="column-12 h100"></div>
+        </nav>
+    </div>
     @* About Us (若不常動的話直接使用靜態) *@
     <div class="aboutUsDiv" id="block-aboutUs">
         <div class="content">
