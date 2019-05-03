@@ -6,7 +6,7 @@
     color: #fc5b00;
 }
 
-.news-img {
+.blog-img {
     width: 40%;
     height: 100%;
     display: inline-block;
@@ -17,7 +17,7 @@
     }
 }
 
-.news-content {
+.blog-content {
     width: 60%;
     height: 100%;
     display: inline-block;
@@ -25,7 +25,7 @@
 
 
 
-.news-div {
+.blog-div {
     @include transition(all, 0.4s, ease, 0s);
     // background: rgba(0, 0, 0, 0.5);
     background: #262525;
@@ -39,7 +39,7 @@
     position: relative;
     overflow: hidden;
     color: #fff;
-    .themeTitle {
+    .theme-title {
         color: #fff;
 
         .archives {
@@ -76,7 +76,7 @@
         }
     }
 
-
+    
 
     &.refresh:after {
         content: "";
@@ -92,7 +92,7 @@
 
     }
   
-    .news-content {
+    .blog-content {
         width: 100%;
         display: inline-block;
         padding:1rem 0;
@@ -100,7 +100,7 @@
        
     }
 
-    .news {
+    .blog {
         overflow: initial;
         text-overflow: initial;
         display: block;
@@ -108,7 +108,7 @@
         -webkit-box-orient: initial;
     }
 
-    .news-img {
+    .blog-img {
         width: 100%;
         height: auto;
 

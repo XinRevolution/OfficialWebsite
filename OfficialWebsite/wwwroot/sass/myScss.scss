@@ -5,7 +5,7 @@
 @import 'menu.scss';
 @import 'aboutUS.scss';
 @import 'index.scss';
-@import 'news.scss';
+@import 'blog.scss';
 @import 'work.scss';
 @import 'issue.scss';
 @import 'fireGeneration.scss';
@@ -91,7 +91,7 @@ header {
     top: 0;
     z-index: 2000;
 
-    .headerDiv {
+    .header-div {
         width: 100%;
     }
 

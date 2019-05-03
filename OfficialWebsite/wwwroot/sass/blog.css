@@ -319,18 +319,18 @@ h4 {
   color: #fc5b00;
 }
 
-.news-img {
+.blog-img {
   width: 40%;
   height: 100%;
   display: inline-block;
   float: left;
 }
 
-.news-img img {
+.blog-img img {
   height: 100%;
 }
 
-.news-content {
+.blog-content {
   width: 60%;
   height: 100%;
   display: inline-block;
@@ -351,23 +351,23 @@ h4 {
   color: #fff;
 }
 
-.blog-div .themeTitle {
+.blog-div .theme-title {
   color: #fff;
 }
 
-.blog-div .themeTitle .archives {
+.blog-div .theme-title .archives {
   margin: 1rem 0;
 }
 
-.blog-div .themeTitle .title-group {
+.blog-div .theme-title .title-group {
   margin: 4rem 0 1rem 0;
 }
 
-.blog-div .themeTitle .title-group .info {
+.blog-div .theme-title .title-group .info {
   margin: 0.5rem 0;
 }
 
-.blog-div .themeTitle:before {
+.blog-div .theme-title:before {
   content: '';
   background: url(/images/theme.svg) no-repeat center;
   background-size: cover;
@@ -378,7 +378,7 @@ h4 {
   top: 0;
 }
 
-.blog-div .themeTitle:after {
+.blog-div .theme-title:after {
   content: '';
   width: 100%;
   height: 0.4rem;
@@ -401,14 +401,14 @@ h4 {
   animation: a-refresh 1s ease reverse;
 }
 
-.blog-div .news-content {
+.blog-div .blog-content {
   width: 100%;
   display: inline-block;
   padding: 1rem 0;
   float: left;
 }
 
-.blog-div .news {
+.blog-div .blog {
   overflow: initial;
   text-overflow: initial;
   display: block;
@@ -416,12 +416,12 @@ h4 {
   -webkit-box-orient: initial;
 }
 
-.blog-div .news-img {
+.blog-div .blog-img {
   width: 100%;
   height: auto;
 }
 
-.blog-div .news-img img {
+.blog-div .blog-img img {
   display: block;
   margin: 0 auto;
   width: -webkit-max-content;
@@ -501,4 +501,4 @@ h4 {
   position: relative;
   z-index: 999;
 }
-/*# sourceMappingURL=news.css.map */
+/*# sourceMappingURL=blog.css.map */
