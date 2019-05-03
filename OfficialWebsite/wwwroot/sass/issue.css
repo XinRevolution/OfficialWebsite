@@ -323,11 +323,11 @@ h4 {
   width: 100%;
 }
 
-.block-plain:hover .issuesDiv {
+.block-plain:hover .issues-div {
   opacity: 0.2;
 }
 
-.block-plain:hover .issuesDiv:hover {
+.block-plain:hover .issues-div:hover {
   opacity: 1;
 }
 
