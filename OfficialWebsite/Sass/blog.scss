@@ -23,9 +23,7 @@
     display: inline-block;
 }
 
-
-
-.blog-div {
+.blog-unit {
     @include transition(all, 0.4s, ease, 0s);
     // background: rgba(0, 0, 0, 0.5);
     background: #262525;
