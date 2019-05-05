@@ -17,11 +17,6 @@
     }
 }
 
-.blog-content {
-    width: 60%;
-    height: 100%;
-    display: inline-block;
-}
 
 .blog-unit {
     @include transition(all, 0.4s, ease, 0s);
@@ -37,7 +32,7 @@
     position: relative;
     overflow: hidden;
     color: #fff;
-    .theme-title {
+    .blog-title {
         color: #fff;
 
         .archives {
@@ -90,7 +85,7 @@
 
     }
   
-    .blog-content {
+    .blog-article {
         width: 100%;
         display: inline-block;
         padding:1rem 0;
@@ -117,27 +112,6 @@
             height: 100%;
         }
     }
-    // fieldset {
-    //     min-height: calc(100% - (20px + 0.5rem));
-    //     height: auto;
-    //     position: relative;
-    //     line-height: normal;
-
-    //     .news {
-    //         overflow: hidden;
-    //         text-overflow: ellipsis;
-    //         display: -webkit-box;
-    //         -webkit-line-clamp: 2;
-    //         -webkit-box-orient: vertical;
-    //     }
-
-    //     .media {
-    //         position: absolute;
-    //         bottom: 0;
-
-
-    //     }
-    // }
 
     .btn {
         display: inline-block;
@@ -145,79 +119,6 @@
         float: right;
         margin-top: 0.5rem;
     }
-// new-過場動畫
-// new-過場動畫-未啟動 //
-  // .newsImg {
-    //     @include transition(all, 0.4s, ease, 0s);
-    //     width: 30rem;
-    //     height: 100%;
-    //     display: inline-block;
-    //     opacity: 1;
-    //     background: $black;
-
-    //     img {
-    //         display: block;
-    //         margin: 0 auto;
-    //     }
-    // }
-
-    // .newsContent {
-    //     width: calc(100% - 30rem);
-    //     display: inline-block;
-    //     padding: 0.5rem;
-    // }
-
-// new-過場動畫-啟動 //
-
-    // &.news-active {
-    //     min-height: calc((100% - 0.5rem) / 2);
-    //     height: auto;
-    //     padding: 2rem;
-
-    //     &:before {
-    //         content: "";
-    //         position: absolute;
-    //         width: 100%;
-    //         height: 100%;
-    //         right: -100%;
-    //         top: 0;
-    //         background: black;
-    //         -webkit-animation: a-refresh $sec ease;
-    //         /* Safari 4.0 - 8.0 */
-    //         animation: a-refresh $sec ease;
-
-    //     }
-
-    //     .newsContent {
-    //         width: 100%;
-    //         display: inline-block;
-    //         padding:1rem 0;
-    //         float: left;
-           
-    //     }
-
-
-    //     .news {
-    //         overflow: initial;
-    //         text-overflow: initial;
-    //         display: block;
-    //         -webkit-line-clamp: initial;
-    //         -webkit-box-orient: initial;
-    //     }
-
-    //     .newsImg {
-    //         width: 100%;
-    //         height: auto;
-
-    //         img {
-    //             display: block;
-    //             margin: 0 auto;
-    //             width: max-content;
-    //             height: 100%;
-    //         }
-    //     }
-
-    // }
 }
 
 
