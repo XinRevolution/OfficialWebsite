@@ -4745,18 +4745,18 @@ h4 {
   width: 100%;
 }
 
-.menu-div.menu-active {
+.menu-div.active {
   opacity: 0.7;
   height: 100vh;
   background: #292929;
   z-index: 1500;
 }
 
-.menu-div.menu-active nav {
+.menu-div.active nav {
   height: 100%;
 }
 
-.menu-div.menu-active nav:after {
+.menu-div.active nav:after {
   margin: auto;
   width: 1px;
   height: 20rem;
@@ -4768,11 +4768,11 @@ h4 {
   bottom: 0;
 }
 
-.menu-div.menu-active [class*="column-"] {
+.menu-div.active [class*="column-"] {
   padding: 15% 0;
 }
 
-.menu-div.menu-active [class*="column-"] a {
+.menu-div.active [class*="column-"] a {
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -4786,7 +4786,7 @@ h4 {
   margin: 2.5rem 0;
 }
 
-.menu-div.menu-active [class*="column-"] a:hover, .menu-div.menu-active [class*="column-"] a:active {
+.menu-div.active [class*="column-"] a:hover, .menu-div.active [class*="column-"] a:active {
   background: #fff;
   color: #000;
 }
@@ -5274,7 +5274,7 @@ h4 {
   opacity: 0;
 }
 
-.aboutUs-div.aboutUs-active {
+.aboutUs-div.active {
   opacity: 1;
   background: #292929;
   width: 100%;
@@ -5647,7 +5647,7 @@ h4 {
   cursor: pointer;
 }
 
-.logo-header a .xLogo {
+.logo-header a .x-logo {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -5660,7 +5660,7 @@ h4 {
   background-position: center;
 }
 
-.logo-header a .xLogo:hover {
+.logo-header a .x-logo:hover {
   opacity: 0.4;
 }
 
