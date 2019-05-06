@@ -1,67 +1,45 @@
-﻿@{
+﻿@{ 
     ViewBag.Transition = TransitionType.VERTICAL;
 }
-
-@* Blog *@
+<!-- Blog -->
 <div class="grid-container h100 pt-content relative overflow-auto-y">
+    <!-- 導覽區 -->
     <div class="sign">
         <nav>
-            <a class="prev" asp-controller="Home">PREV</a>
-            <a class="next" asp-controller="Work">NEXT</a>
+            <a class="prev" asp-controller="Home" asp-action="Index">PREV</a>
+            <a class="next" asp-controller="Home" asp-action="Works">NEXT</a>
         </nav>
         <div class="now">Blog</div>
     </div>
 
     <!-- 人物素材 -->
-    <!--
-    <div class="column-3 bg-block"></div>
+    <!-- <div class="column-3 bg-block"></div>
     <div class="test2"></div>
-    <div class="theme">NEWS</div>
-    -->
-    <!-- Main Content -->
+    <div class="theme">NEWS</div> -->
+
+    <!-- 左側內容 -->
     <div class="column-15 pre-2 h100 z999">
         <!-- <div class="theme  btn borderTop leftBottom">BLOG</div> -->
-        @* Blog Unit *@
-        <div class="blog-unit" data-tags="">
-            <a class="blog-link" href="#">anchor for the blog</a>
+        <!-- BLOG -->
 
-            <div class="blog-archive">archive category</div>
-
-            <div class="blog-info">date and tag</div>
-
-            <div class="blog-title">title</div>
-
-            <div class="blog-content"></div>
-
-            <div class="blog-share"></div>
-        </div>
-
-
-        <div class="blog-div">
+        <div class="blog-div js-block-news ">
             <!-- 標題 -->
             <div class=" theme-title">
                 <div class="archives">ARCHIVES: <span class="blog-data">2019.01</span></div>
                 <div class="title-group">
-                    <div>
-                        <span class="blog-date">2018/01/01</span>
-                        <span class="blog-tag">New</span>
-                        <span class="blog-tag">Test1</span>
-                        <span class="blog-tag">Test2</span>
-                        <span class="blog-tag">Test3</span>
-                        <span class="blog-tag">Test4</span>
-                        <span class="blog-tag">Test5</span>
-                    </div>
                     <div class="info">
-                        <h4 class="title"> 新革命 - 焰世代 </h4>
+                        <span>2018/01/01</span>
+                        <span class="lighten">|</span>
+                        <span class="lighten">#</span>
+                        <span>New<span>
                     </div>
+                    <h4 class="title"> 新革命 - 焰世代 </h4>
                 </div>
             </div>
-
             <!-- 圖片 -->
             <div class="blog-img">
                 <img src="/images/news-test.png">
             </div>
-
             <!-- 內容 -->
             <div class="blog-content">
                 Lorem Lorem commodo adipisicing anim ex. Laboris dolore Lorem Lorem veniam occaecat anim cupidatat ipsum
@@ -74,7 +52,8 @@
             <div>IG</div>
         </div>
 
-        <div class="blog-div">
+
+  <div class="blog-div js-block-news ">
             <!-- 標題 -->
             <div class=" theme-title">
                 <div class="archives">ARCHIVES: <span class="blog-data">2019.01</span></div>
@@ -103,33 +82,48 @@
             <div>FB</div>
             <div>IG</div>
         </div>
+        <!-- 新聞單元 舊版參考-->
+        <!-- <div class="newsDiv js-block-news">
+            <div class=" themeTitle"></div>
+            <div class="newsImg">
+                <img src="/images/test.jpg">
+            </div>
+            <div class="newsContent">
+                <fieldset>
+                    <legend>Title - <span>2018/01/01</span></legend>
+                    <div class="news">
+                        內容內容內容內容內容內容內容內容內容內容容內容內容內容內容內容內容內容內容內容容內容內容內容內容內容內容內容內容內容容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容ㄒ內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+                    </div>
+                    <div class="media">媒體區塊</div>
+                </fieldset>
+                <div class="btn btnSquare js-btn-more">more</div>
+                <div class="btn btnSquare">tag</div>
+            </div>
+        </div> -->
     </div>
 
-    <!-- Additional Filter -->
-    <div class="column-5 z999 date-group ">
+    <!-- 右側篩選 pre-17 fixed -->
+    <div class="column-5 z999  date-group ">
+        <!-- 年度分類 -->
         <div class="date-div">
-            <div class="btn date center">ARCHIVES</div>
-            <ul>
-                <li>
-                    <span class="">2019 01</span>
-                    <ul class="hide">
-                        <li>內文1</li>
-                        <li>內文2</li>
-                        <li>內文3</li>
-                    </ul>
-                </li>
-                <li>2019 01</li>
-                <li>2018 12</li>
-                <li>2018 11</li>
-                <li>2018 11</li>
-            </ul>
+            <div>
+                <div class="btn date center">ARCHIVES</div>
+                <ul>
+                    <li>2019 02</li>
+                    <li>2019 01</li>
+                    <li>2018 12</li>
+                    <li>2018 11</li>
+                    <li>2018 11</li>
+                </ul>
+            </div>
         </div>
 
+        <!-- 雜湊標籤 -->
         <div class="date-div">
-            <div class="btn tag center">Tag1</div>
-            <div class="btn tag center">Tag2</div>
-            <div class="btn tag center">Tag3</div>
-            <div class="btn tag center">Tag4</div>
+            <div class="btn tag center"><span class="lighten">#</span>News</div>
+            <div class="btn tag center"><span class="lighten">#</span>News</div>
+            <div class="btn tag center"><span class="lighten">#</span>News</div>
+            <div class="btn tag center"><span class="lighten">#</span>News</div>
         </div>
     </div>
 </div>
