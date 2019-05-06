@@ -5,72 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\styles\**" />
-    <Content Remove="wwwroot\styles\**" />
-    <EmbeddedResource Remove="wwwroot\styles\**" />
-    <None Remove="wwwroot\styles\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Sass\aboutUs.scss" />
-    <Content Include="Sass\blog.scss" />
-    <Content Include="Sass\btn.scss" />
-    <Content Include="Sass\calcite-web.scss" />
-    <Content Include="Sass\calcite-web\base\_config.scss" />
-    <Content Include="Sass\calcite-web\base\_reset.scss" />
-    <Content Include="Sass\calcite-web\fonts\calcite-ui.eot" />
-    <Content Include="Sass\calcite-web\fonts\calcite-ui.ttf" />
-    <Content Include="Sass\calcite-web\fonts\calcite-ui.woff" />
-    <Content Include="Sass\calcite-web\grid\_block-groups.scss" />
-    <Content Include="Sass\calcite-web\grid\_columns.scss" />
-    <Content Include="Sass\calcite-web\grid\_grid.scss" />
-    <Content Include="Sass\calcite-web\grid\_gutter-helpers.scss" />
-    <Content Include="Sass\calcite-web\grid\_gutter.scss" />
-    <Content Include="Sass\calcite-web\grid\_leader-trailer.scss" />
-    <Content Include="Sass\calcite-web\grid\_left-right.scss" />
-    <Content Include="Sass\calcite-web\grid\_mixins.scss" />
-    <Content Include="Sass\calcite-web\grid\_pre-post.scss" />
-    <Content Include="Sass\calcite-web\grid\_show-hide.scss" />
-    <Content Include="Sass\calcite-web\grid\_sticky.scss" />
-    <Content Include="Sass\calcite-web\imports.scss" />
-    <Content Include="Sass\calcite-web\patterns\_accordion.scss" />
-    <Content Include="Sass\calcite-web\patterns\_drawers.scss" />
-    <Content Include="Sass\calcite-web\patterns\_filter-dropdown.scss" />
-    <Content Include="Sass\calcite-web\patterns\_footer.scss" />
-    <Content Include="Sass\calcite-web\patterns\_modal.scss" />
-    <Content Include="Sass\calcite-web\patterns\_search.scss" />
-    <Content Include="Sass\calcite-web\patterns\_side-nav.scss" />
-    <Content Include="Sass\calcite-web\patterns\_sub-nav.scss" />
-    <Content Include="Sass\calcite-web\patterns\_tabs.scss" />
-    <Content Include="Sass\calcite-web\patterns\_third-nav.scss" />
-    <Content Include="Sass\calcite-web\patterns\_top-nav.scss" />
-    <Content Include="Sass\calcite-web\patterns\_user-nav.scss" />
-    <Content Include="Sass\calcite-web\utils\_animation.scss" />
-    <Content Include="Sass\calcite-web\utils\_appearance.scss" />
-    <Content Include="Sass\calcite-web\utils\_box-shadow.scss" />
-    <Content Include="Sass\calcite-web\utils\_box-sizing.scss" />
-    <Content Include="Sass\calcite-web\utils\_calc.scss" />
-    <Content Include="Sass\calcite-web\utils\_clearfix.scss" />
-    <Content Include="Sass\calcite-web\utils\_inline.scss" />
-    <Content Include="Sass\calcite-web\utils\_keyframes.scss" />
-    <Content Include="Sass\calcite-web\utils\_overflow.scss" />
-    <Content Include="Sass\calcite-web\utils\_prefixer.scss" />
-    <Content Include="Sass\calcite-web\utils\_responsive.scss" />
-    <Content Include="Sass\calcite-web\utils\_transform.scss" />
-    <Content Include="Sass\calcite-web\utils\_transition.scss" />
-    <Content Include="Sass\calcite-web\utils\_utils.scss" />
-    <Content Include="Sass\calcite-web\utils\_visibility.scss" />
-    <Content Include="Sass\fireGeneration.scss" />
-    <Content Include="Sass\index.scss" />
-    <Content Include="Sass\issue.scss" />
-    <Content Include="Sass\menu.scss" />
-    <Content Include="Sass\mixin.scss" />
-    <Content Include="Sass\myScss.scss" />
-    <Content Include="Sass\reset.scss" />
-    <Content Include="Sass\work.scss" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
@@ -79,8 +13,10 @@
   <ItemGroup>
     <Folder Include="Models\Entity\" />
     <Folder Include="Models\ViewModel\" />
-    <Folder Include="Sass\" />
-    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\sass\" />
+    <Folder Include="wwwroot\styles\images\" />
+    <Folder Include="wwwroot\styles\fonts\" />
+    <Folder Include="wwwroot\styles\css\" />
   </ItemGroup>
 
 </Project>
