@@ -1,23 +1,24 @@
 ﻿@{
 ViewBag.Transition = TransitionType.VERTICAL;
 }
-<!-- Blog -->
+
+@* Blog *@
 <div class="grid-container h100 pt-content relative overflow-auto-y">
-    <!-- 導覽區 -->
     <div class="sign">
         <nav>
-            <a class="prev" asp-controller="Home" asp-action="Index">PREV</a>
-            <a class="next" asp-controller="Home" asp-action="Works">NEXT</a>
+            <a class="prev" asp-controller="Home">PREV</a>
+            <a class="next" asp-controller="Work">NEXT</a>
         </nav>
         <div class="now">Blog</div>
     </div>
 
     <!-- 人物素材 -->
+
     <!-- <div class="column-3 bg-block"></div>
     <div class="test2"></div>
-    <div class="theme">NEWS</div> -->
-
-    <!-- 左側內容 -->
+    <div class="theme">NEWS</div>
+    -->
+    <!-- Main Content -->
     <div class="column-15 pre-2 h100 z999">
         <!-- <div class="theme  btn borderTop leftBottom">BLOG</div> -->
         @* Blog Unit *@
@@ -66,18 +67,16 @@ ViewBag.Transition = TransitionType.VERTICAL;
                         <span class="blog-tag">New</span>
                     </div>
                     <div class="info">
-                        <span>2018/01/01</span>
-                        <span class="lighten">|</span>
-                        <span class="lighten">#</span>
-                        <span>New<span>
+                        <h4 class="title"> 新革命 - 焰世代 </h4>
                     </div>
-                    <h4 class="title"> 新革命 - 焰世代 </h4>
                 </div>
             </div>
+
             <!-- 圖片 -->
             <div class="blog-img">
                 <img src="/images/news-test.png">
             </div>
+
             <!-- 內容 -->
             <div class="blog-content">
                 Lorem Lorem commodo adipisicing anim ex. Laboris dolore Lorem Lorem veniam occaecat anim cupidatat ipsum
@@ -92,28 +91,31 @@ ViewBag.Transition = TransitionType.VERTICAL;
 
     </div>
 
-    <!-- 右側篩選 pre-17 fixed -->
-    <div class="column-5 z999  date-group ">
-        <!-- 年度分類 -->
+    <!-- Additional Filter -->
+    <div class="column-5 z999 date-group ">
         <div class="date-div">
-            <div>
-                <div class="btn date center">ARCHIVES</div>
-                <ul>
-                    <li>2019 02</li>
-                    <li>2019 01</li>
-                    <li>2018 12</li>
-                    <li>2018 11</li>
-                    <li>2018 11</li>
-                </ul>
-            </div>
+            <div class="btn date center">ARCHIVES</div>
+            <ul>
+                <li>
+                    <span class="">2019 01</span>
+                    <ul class="hide">
+                        <li>內文1</li>
+                        <li>內文2</li>
+                        <li>內文3</li>
+                    </ul>
+                </li>
+                <li>2019 01</li>
+                <li>2018 12</li>
+                <li>2018 11</li>
+                <li>2018 11</li>
+            </ul>
         </div>
 
-        <!-- 雜湊標籤 -->
         <div class="date-div">
-            <div class="btn tag center"><span class="lighten">#</span>News</div>
-            <div class="btn tag center"><span class="lighten">#</span>News</div>
-            <div class="btn tag center"><span class="lighten">#</span>News</div>
-            <div class="btn tag center"><span class="lighten">#</span>News</div>
+            <div class="btn tag center">Tag1</div>
+            <div class="btn tag center">Tag2</div>
+            <div class="btn tag center">Tag3</div>
+            <div class="btn tag center">Tag4</div>
         </div>
     </div>
 </div>

@@ -7,23 +7,12 @@
 
     <title>XinRevolution</title>
 
-    <environment include="Development">
-        <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" /> -->
-    </environment>
-    <environment exclude="Development">
-        <!-- <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
-            asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-fallback-test-class="sr-only"
-            asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" /> -->
-    </environment>
     <link rel="stylesheet" href="~/css/hamburgers.css" />
     <link rel="stylesheet" href="~/css/style.css" />
     <link rel="stylesheet" href="~/css/myScss.css" />
+
     <!-- fonts- Libre Barcode 128 、Pathway Gothic One、Homenaje、Roboto、Noto Sans TC、Share Tech、Open Sans-->
-    <link
-        href="https://fonts.googleapis.com/css?family=Homenaje|Libre+Barcode+128|Noto+Sans+TC|Pathway+Gothic+One|Open+Sans:400,600i,700i,800i|Share+Tech|Share+Tech|Roboto&amp;subset=latin-ext"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homenaje|Libre+Barcode+128|Noto+Sans+TC|Pathway+Gothic+One|Open+Sans:400,600i,700i,800i|Share+Tech|Share+Tech|Roboto&amp;subset=latin-ext" rel="stylesheet">
 </head>
 
 <body>
@@ -31,47 +20,45 @@
     <div class='@ViewBag.Transition' id="js-layout-block-transition">XIN_REVOLUTION</div>
 
     @* Header *@
-    <header class="js-style-toggleable">
-        <!-- 操作區 -->
-        <div class="header-div">
-            <!-- 漢堡圖 -->
-            <div class="btn left-top border-bottom">
-                <div class="hamburger hamburger--emphatic btn" id="btn-menu">
-                    <div class="hamburger-box">
-                        <div class="hamburger-inner"></div>
-                    </div>
+    <header class="header-div">
+        <!-- Menu Btn -->
+        <div class="btn left-top border-bottom" id="js-layout-btn-menu-show">
+            <div class="hamburger hamburger--emphatic btn">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
                 </div>
-            </div>
-            <!-- LOGO -->
-            <div class="logo-header">
-                <a asp-controller="Home" asp-action="Index" class="navbar-brand">
-                    <!-- <img src="~/images/X-logo.png" alt=""> -->
-                    <div class="xLogo"></div>
-                </a>
-            </div>
-            <!-- 右邊連結 -->
-            <div class="btn border-bottom right-top">
-                <a class="btn icon-account"></a>
-                <a class="btn icon-shopping-cart"></a>
-                <a class="btn icon-search"></a>
             </div>
         </div>
-    </header>
-    @* Main Content *@
-    <div class="">
-        @*務必保留 RenderBody *@
-      <div class="wrapper">
-        <div class="h100 relative">
-            <!-- <div class="content"> -->
-                @RenderBody()
-            <!-- </div> -->
 
-            <div class="js-style-toggleable">
+        <!-- LOGO -->
+        <div class="logo-header">
+            <a asp-controller="Home" class="navbar-brand">
+                <div class="x-logo"></div>
+            </a>
+        </div>
+
+        <!-- 右邊連結 -->
+        <div class="btn border-bottom right-top">
+            <a class="btn icon-account"></a>
+            <a class="btn icon-shopping-cart"></a>
+            <a class="btn icon-search"></a>
+        </div>
+    </header>
+
+    @* Content *@
+    <div class="wrapper">
+        <div class="h100 relative">
+            @* Main *@
+            @RenderBody()
+
+            @* Decoration *@
+            <div class="">
                 <div class="top-sight"></div>
+
                 <div class="bottom-sight">
-                    <!-- circle-g -->
-                    <embed class="circle-g" src="/images/circle-g .svg" type="image/svg+xml" />
+                    <embed class="circle-g" src="~/images/circle-g .svg" type="image/svg+xml" />
                 </div>
+
                 <div class="grid-container">
                     <div class="cross-div">
                         <div class="column-6 "></div>
@@ -82,76 +69,60 @@
                 </div>
             </div>
         </div>
-    </section>
-       
-        <footer>
-            <div class="btn border-top left-bottom">
-                <div class="btn btn-square" id="btn-aboutUs-toggle">ABOUT_US</div>
-            </div>
-            <div class="right btn border-top right-bottom">
-                <nav>
-                    <a class="btn icon-twitter"></a>
-                    <a class="btn icon-fb" href="https://www.facebook.com/XinRevo/" target="_blank"></a>
-                    <a class="btn icon-ig"></a>
-                </nav>
-            </div>
-            <div class="footer-div"></div>
-        </footer>
     </div>
 
+    @* Footer *@
+    <footer>
+        <div class="btn border-top left-bottom">
+            <div class="btn btn-square" id="js-layout-btn-aboutUs-show">ABOUT_US</div>
+        </div>
+
+        <div class="right btn border-top right-bottom">
+            <nav>
+                <a class="btn icon-twitter"></a>
+                <a class="btn icon-fb" href="https://www.facebook.com/XinRevo/" target="_blank"></a>
+                <a class="btn icon-ig"></a>
+            </nav>
+        </div>
+
+        <div class="footer-div"></div>
+    </footer>
+
     @* Menu *@
-    <div class="menu-div" id="block-menu">
+    <div class="menu-div" id="js-layout-block-menu">
         <nav class="grid-container ">
             <div class="column-12 h100">
-                <a asp-controller="Home" asp-action="Index">INDEX</a>
-                <a asp-controller="Home" asp-action="News">NEWS</a>
-                <a asp-controller="Home" asp-action="Works">WORKS</a>
-                <a asp-controller="Home" asp-action="Issues">ISSUES</a>
-                <!-- <a asp-controller="Home" asp-action="Store">Store</a>-->
+                <a asp-controller="Home">INDEX</a>
+                <a asp-controller="Blog">BLOGS</a>
+                <a asp-controller="Work">WORKS</a>
+                <a asp-controller="Issue">ISSUES</a>
             </div>
+
             <div class="column-12 h100"></div>
+
+            <div id="js-layout-btn-menu-hide">關閉</div>
         </nav>
     </div>
-    @* About Us (若不常動的話直接使用靜態) *@
-    <div class="aboutUs-div" id="block-aboutUs">
+
+    @* About Us *@
+    <div class="aboutUs-div" id="js-layout-block-aboutUs">
         <div class="content">
-            <div class="aboutUs-content  grid-container"> About us content
-                <!-- 成員資料區域-->
+            <div class="aboutUs-content grid-container">
                 <div>
                     <div>照片</div>
                     <div>資料</div>
                 </div>
-                <!--關閉-->
-                <div class="" id="btn-aboutUs-close">關閉</div>
+
+                <div id="js-layout-btn-aboutUs-hide">關閉</div>
             </div>
         </div>
     </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/layout.js"></script>
+
     @* 以下部分暫時不要更動 *@
     <!-- <partial name="_CookieConsentPartial" /> -->
-
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-            asp-fallback-src="~/lib/jquery/dist/jquery.min.js" asp-fallback-test="window.jQuery" crossorigin="anonymous"
-            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-            asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal" crossorigin="anonymous"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>
-
-    <script>
-        $(window).on('load', function () {
-            $('#js-layout-block-transition').delay(1000).fadeOut("slow");
-        });
-    </script>
 
     @RenderSection("Scripts", required: false)
 </body>

@@ -45,6 +45,8 @@ ViewBag.Transition = TransitionType.HORIZONTAL;
         transition: all 1s ease;
     }
 </style>
+
+@* Home *@
 <div class="js-ctrl-background h100" data-header="dark">
     <!-- 主視覺 -->
     <div class="master-vision">
@@ -55,23 +57,27 @@ ViewBag.Transition = TransitionType.HORIZONTAL;
             <!-- <div class="bgRed"></div> -->
         </div>
     </div>
+
     <!-- 圓形準心 -->
     <div class="concentric"></div>
     <div class="index-circle"></div>
+    
     <!-- Index -->
     <div class="grid-container h100 relative">
         <!-- 導覽區 -->
         <div class="sign">
             <nav>
                 <a class="prev" href="#">PREV</a>
-                <a class="next" asp-controller="Home" asp-action="News">NEXT</a>
+                <a class="next" asp-controller="Blog">NEXT</a>
             </nav>
             <div class="now">Index</div>
         </div>
+    
         <div>
             <h2>首頁</h2>
             <div>內容</div>
             <div class="logo-x icon-logo"></div>
+
             <!-- 視差捲軸 測試 -->
             <div class="out">
                 <div class="article section-1">
@@ -79,11 +85,13 @@ ViewBag.Transition = TransitionType.HORIZONTAL;
                     TEST-1 <br>
                     TEST-1 <br>
                 </div>
+            
                 <div class="article section-2">
                     TEST-2 <br>
                     TEST-2 <br>
                     TEST-2 <br>
                 </div>
+                
                 <div class="article section-3">
                     TEST-3 <br>
                     TEST-3 <br>
