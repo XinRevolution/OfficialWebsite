@@ -315,26 +315,6 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
-.blog-archive {
-  color: #fc5b00;
-}
-
-.blog-archive:before {
-  content: "ARCHIVES:";
-  color: #fff;
-}
-
-.blog-img {
-  width: 40%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-}
-
-.blog-img img {
-  height: 100%;
-}
-
 .blog-unit {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
@@ -350,20 +330,35 @@ h4 {
   color: #fff;
 }
 
-.blog-unit .blog-title {
-  color: #fff;
+.blog-unit.refresh:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  top: 0;
+  background: black;
+  -webkit-animation: a-refresh 1s ease reverse;
+  /* Safari 4.0 - 8.0 */
+  animation: a-refresh 1s ease reverse;
 }
 
-.blog-unit .blog-title .archives {
+.blog-unit .blog-archive {
+  color: #fc5b00;
   margin: 1rem 0;
 }
 
-.blog-unit .blog-title .title-group {
-  margin: 4rem 0 1rem 0;
+.blog-unit .blog-archive:before {
+  content: "ARCHIVES:";
+  color: #fff;
 }
 
-.blog-unit .blog-title .title-group .info {
-  margin: 0.5rem 0;
+.blog-unit .blog-info {
+  margin-top: 4rem;
+}
+
+.blog-unit .blog-title {
+  margin: 0.5rem 0 1rem 0;
 }
 
 .blog-unit .blog-title:before {
@@ -387,32 +382,11 @@ h4 {
   left: 0;
 }
 
-.blog-unit.refresh:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: -100%;
-  top: 0;
-  background: black;
-  -webkit-animation: a-refresh 1s ease reverse;
-  /* Safari 4.0 - 8.0 */
-  animation: a-refresh 1s ease reverse;
-}
-
 .blog-unit .blog-article {
   width: 100%;
   display: inline-block;
   padding: 1rem 0;
   float: left;
-}
-
-.blog-unit .blog {
-  overflow: initial;
-  text-overflow: initial;
-  display: block;
-  -webkit-line-clamp: initial;
-  -webkit-box-orient: initial;
 }
 
 .blog-unit .blog-img {
