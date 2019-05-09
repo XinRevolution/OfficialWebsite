@@ -318,6 +318,32 @@ h4 {
   color: #292929;
 }
 
+.menu-div .close, .aboutUs-div .close {
+  position: absolute;
+  color: #fff;
+  font-size: 5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 5rem;
+}
+
+.menu-div .close:after, .aboutUs-div .close:after {
+  content: "close";
+  font-size: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  bottom: -0.5rem;
+}
+
 .menu-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
@@ -374,10 +400,6 @@ h4 {
 .menu-div.active [class*="column-"] a:hover, .menu-div.active [class*="column-"] a:active {
   background: #fff;
   color: #000;
-}
-
-.menu-div .close {
-  position: absolute;
 }
 
 .fire-menu {

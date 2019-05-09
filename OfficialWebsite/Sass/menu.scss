@@ -2,15 +2,41 @@
 
 // menu
 
-.menu{
+.menu {
     color: $black;
 }
+
+%close {
+    position: absolute;
+    color: #fff;
+    font-size: 5rem;
+    width: fit-content;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 5rem;
+
+    &:after {
+        content: "close";
+        font-size: 1rem;
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        bottom: -0.5rem;
+
+    }
+}
+
 .menu-div {
     @include transition(all, 0.4s, ease, 0s);
     position: absolute;
     top: 0;
     opacity: 0;
     width: 100%;
+
     &.active {
         opacity: 1;
         height: 100vh;
@@ -57,11 +83,19 @@
     }
 
     .close {
-        position: absolute;
+        @extend %close;
     }
 }
 
-// fireMenu
+//aboutUs-div
+
+.aboutUs-div {
+    .close {
+        @extend %close;
+    }
+}
+
+// fire-menu
 .fire-menu {
     background: $black;
     @include transition(all, 0.4s, ease, 0s);
