@@ -313,28 +313,4 @@ h4 {
   -webkit-transform: translateX(50px) translateY(50px) rotateY(20deg);
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
-
-.aboutUs-div {
-  transition: all 0.4s ease 0s;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-}
-
-.aboutUs-div.active {
-  opacity: 1;
-  background: #292929;
-  width: 100%;
-  height: 100vh;
-  z-index: 1400;
-}
-
-.aboutUs-div .aboutUs-content {
-  font-size: 6rem;
-  color: #fff;
-}
 /*# sourceMappingURL=aboutUs.css.map */
