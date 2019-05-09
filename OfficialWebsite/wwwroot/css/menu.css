@@ -314,6 +314,10 @@ h4 {
           transform: translateX(50px) translateY(50px) rotateY(20deg);
 }
 
+.menu {
+  color: #292929;
+}
+
 .menu-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
@@ -327,7 +331,7 @@ h4 {
 }
 
 .menu-div.active {
-  opacity: 0.7;
+  opacity: 1;
   height: 100vh;
   background: #292929;
   z-index: 1500;
@@ -370,6 +374,10 @@ h4 {
 .menu-div.active [class*="column-"] a:hover, .menu-div.active [class*="column-"] a:active {
   background: #fff;
   color: #000;
+}
+
+.menu-div .close {
+  position: absolute;
 }
 
 .fire-menu {

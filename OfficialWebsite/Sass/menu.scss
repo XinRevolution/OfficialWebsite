@@ -1,21 +1,25 @@
 @import 'mixin.scss';
 
 // menu
+
+.menu{
+    color: $black;
+}
 .menu-div {
     @include transition(all, 0.4s, ease, 0s);
     position: absolute;
     top: 0;
     opacity: 0;
     width: 100%;
- 
     &.active {
-        opacity: 0.7;
+        opacity: 1;
         height: 100vh;
         background: $black;
         z-index: 1500;
 
         nav {
             height: 100%;
+
             &:after {
                 margin: auto;
                 width: 1px;
@@ -26,12 +30,12 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-               
+
             }
         }
 
         [class*="column-"] {
-           padding: 15% 0;
+            padding: 15% 0;
 
             a {
                 @include transition(all, 0.3s, ease, 0s);
@@ -51,8 +55,11 @@
 
         }
     }
-}
 
+    .close {
+        position: absolute;
+    }
+}
 
 // fireMenu
 .fire-menu {
