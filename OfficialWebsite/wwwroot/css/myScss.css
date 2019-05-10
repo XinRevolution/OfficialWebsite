@@ -4738,6 +4738,11 @@ h4 {
 }
 
 .menu-div .close, .aboutUs-div .close {
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
   position: absolute;
   color: #fff;
   font-size: 5rem;
@@ -4748,6 +4753,12 @@ h4 {
   left: 0;
   right: 0;
   bottom: 5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-div .close:hover, .aboutUs-div .close:hover {
+  opacity: 1;
 }
 
 .menu-div .close:after, .aboutUs-div .close:after {
@@ -4775,11 +4786,11 @@ h4 {
   width: 100%;
   visibility: hidden;
   z-index: 1500;
+  height: 100vh;
 }
 
 .menu-div.active {
   opacity: 1;
-  height: 100vh;
   background: #292929;
   visibility: visible;
 }
