@@ -36,12 +36,14 @@
     top: 0;
     opacity: 0;
     width: 100%;
+    visibility: hidden;
+    z-index: 1500;
 
     &.active {
         opacity: 1;
         height: 100vh;
         background: $black;
-        z-index: 1500;
+        visibility: visible;
 
         nav {
             height: 100%;
@@ -98,12 +100,17 @@
     z-index: 1900;
     background: $black;
 
+    visibility: hidden;
+    opacity: 0;
+
     .close {
         @extend %close;
     }
+
     &.active {
-       
-        display: block;
+        visibility: visible;
+        opacity: 1;
+
     }
 
     .aboutUs-content {

@@ -4773,13 +4773,15 @@ h4 {
   top: 0;
   opacity: 0;
   width: 100%;
+  visibility: hidden;
+  z-index: 1500;
 }
 
 .menu-div.active {
   opacity: 1;
   height: 100vh;
   background: #292929;
-  z-index: 1500;
+  visibility: visible;
 }
 
 .menu-div.active nav {
@@ -4833,10 +4835,13 @@ h4 {
   height: 100vh;
   z-index: 1900;
   background: #292929;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .aboutUs-div.active {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .aboutUs-div .aboutUs-content {
