@@ -1,22 +1,51 @@
 ﻿@{
-ViewBag.Transition = TransitionType.EXPAND;
+    ViewBag.Transition = TransitionType.EXPAND;
 }
+
 <!-- Issues -->
 <div class="grid-container h100 relative overflowAuto-y">
-    <!-- 導覽區 -->
+    <div class="now">Issues</div>
+
     <div class="sign">
         <nav>
-            <a class="prev" asp-controller="Home" asp-action="Works">PREV</a>
+            <a class="prev" asp-controller="Work">PREV</a>
             <a class="next" href="#">NEXT</a>
         </nav>
-        <div class="now">Issues</div>
     </div>
 
-    <h2 class="theme">ISSUES</h2>
-
-    <!-- 切換按鈕 -->
     <div>切換按鈕</div>
 
+    <div class="block-plain column-18 pre-6">
+        @* Issue 單元 *@
+        <div class="issues-div">
+            <div>
+                <img src="~/images/issue-01.jpg" />
+            </div>
+
+            <div>
+                <div>title</div>
+
+                <div>date</div>
+
+                <div>content</div>
+
+                <div>read more</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* 跳出視窗 *@
+<div class="">
+
+</div>
+
+@section Scripts {
+    @* 輪播套件 *@
+    <script type="text/javascript" src="~/js/issue.js"></script>
+}
+
+@*
     <!-- 內容區塊 -->
     <div class="block-plain column-18 pre-6">
         <div class="block-group block-group-3-up">
@@ -35,7 +64,8 @@ ViewBag.Transition = TransitionType.EXPAND;
                 </a>
             </div>
             <!--end -->
-             <!-- 單元區塊 -->
+
+            <!-- 單元區塊 -->
             <div class="issues-height block">
                 <a class="issues-div" asp-controller="Home" asp-action="Issue" asp-route-id="1">
                     <div class="issues-img">
@@ -50,7 +80,8 @@ ViewBag.Transition = TransitionType.EXPAND;
                 </a>
             </div>
             <!--end -->
-             <!-- 單元區塊 -->
+
+            <!-- 單元區塊 -->
             <div class="issues-height block">
                 <a class="issues-div" asp-controller="Home" asp-action="Issue" asp-route-id="1">
                     <div class="issues-img">
@@ -67,3 +98,4 @@ ViewBag.Transition = TransitionType.EXPAND;
             <!--end -->
         </div>
     </div>
+*@

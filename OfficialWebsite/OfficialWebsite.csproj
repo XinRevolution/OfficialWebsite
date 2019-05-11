@@ -12,7 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Sass\aboutUs.scss" />
+    <None Remove="Sass\aboutUs.css" />
+    <None Remove="Sass\aboutUs.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Sass\blog.scss" />
     <Content Include="Sass\btn.scss" />
     <Content Include="Sass\calcite-web.scss" />
@@ -73,7 +77,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>

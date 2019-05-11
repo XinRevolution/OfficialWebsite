@@ -1,20 +1,21 @@
 ﻿@{
-ViewBag.Transition = TransitionType.VERTICAL;
+    ViewBag.Transition = TransitionType.VERTICAL;
 }
 
 @* Blog *@
 <div class="grid-container h100 pt-content relative">
+    <div>Blogs</div>
+
     <div class="sign">
         <nav>
             <a class="prev" asp-controller="Home">PREV</a>
             <a class="next" asp-controller="Work">NEXT</a>
         </nav>
-        <div class="now">Blog</div>
     </div>
 
     <!-- 人物素材 -->
-
-    <!-- <div class="column-3 bg-block"></div>
+    <!--
+    <div class="column-3 bg-block"></div>
     <div class="test2"></div>
     <div class="theme">NEWS</div>
     -->
@@ -22,74 +23,29 @@ ViewBag.Transition = TransitionType.VERTICAL;
     <div class="column-15 pre-2 h100 z999">
         <!-- <div class="theme  btn borderTop leftBottom">BLOG</div> -->
         @* Blog Unit *@
-        <div class="blog-unit" data-tags="">
+        <div class="blog-unit">
             <a class="blog-link" href="#">anchor for the blog</a>
 
             <div class="blog-archive"> 2019.01</div>
 
             <div class="blog-info">2018/01/01 New</div>
 
-                 <h4 class="blog-title">新革命-焰世代</h4>
+            <h4 class="blog-title">新革命-焰世代</h4>
 
             <div class="blog-content">
-
-                <!-- 圖片 -->
-                <div class="blog-img">
-                    <img src="/images/news-test.png">
-                </div>
-
-                <!-- 內容 -->
-                <div class="blog-article">
+                <img class="blog-img" src="/images/news-test.png">
+                <p class="blog-article">
                     Lorem Lorem commodo adipisicing anim ex. Laboris dolore Lorem Lorem veniam occaecat anim cupidatat
-                    ipsum
-                    et qui. Aute aliqua aliqua consequat irure ut elit dolor.
-                </div>
-
+                    ipsumet qui. Aute aliqua aliqua consequat irure ut elit dolor.
+                </p>
             </div>
 
             <div class="blog-share">
-                <!-- 分享至社群 -->
                 <div>Twitter</div>
                 <div>FB</div>
                 <div>IG</div>
             </div>
-
         </div>
-        @* Blog Unit *@
-        <div class="blog-unit" data-tags="">
-            <a class="blog-link" href="#">anchor for the blog</a>
-
-            <div class="blog-archive">2019.01</div>
-
-            <div class="blog-info">2018/01/01 New</div>
-
-            <h4 class="blog-title">title</h4>
-
-            <div class="blog-content">
-
-                <!-- 圖片 -->
-                <div class="blog-img">
-                    <img src="/images/news-test.png">
-                </div>
-
-                <!-- 內容 -->
-                <div class="blog-article">
-                    Lorem Lorem commodo adipisicing anim ex. Laboris dolore Lorem Lorem veniam occaecat anim cupidatat
-                    ipsum
-                    et qui. Aute aliqua aliqua consequat irure ut elit dolor.
-                </div>
-
-            </div>
-
-            <div class="blog-share">
-                <!-- 分享至社群 -->
-                <div>Twitter</div>
-                <div>FB</div>
-                <div>IG</div>
-            </div>
-
-        </div>
-
     </div>
 
     <!-- Additional Filter -->
@@ -98,21 +54,22 @@ ViewBag.Transition = TransitionType.VERTICAL;
             <div class="btn date center">ARCHIVES</div>
             <ul>
                 <li>
-                    <span class="">2019 01</span>
-                    <ul class="hide">
+                    <span class="js-blog-btn-switch-date">2019 01</span>
+                    <ul class="js-blog-list">
                         <li>內文1</li>
                         <li>內文2</li>
                         <li>內文3</li>
                     </ul>
                 </li>
                 <li>
-                    <span class="">2019 01</span>
-                    <ul class="hide">
+                    <span class="js-blog-btn-switch-date">2019 01</span>
+                    <ul class="js-blog-list">
                         <li>內文1</li>
                         <li>內文2</li>
                         <li>內文3</li>
                     </ul>
-                </li> <li>
+                </li>
+                <li>
                     <span class="">2019 01</span>
                     <ul class="hide">
                         <li>內文1</li>
@@ -131,3 +88,7 @@ ViewBag.Transition = TransitionType.VERTICAL;
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script type="text/javascript" src="~/js/blog.js"></script>
+}
