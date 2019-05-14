@@ -65,12 +65,15 @@
 
 // -----------temp-----------
 * {
-    font-family: 'Roboto', "Noto Sans TC";
+    font-family: "Roboto script=all rev=1", "Adobe Blank", "Noto Sans TC";
     box-sizing: border-box;
 
     a {
         text-decoration: none;
     }
+}
+html{
+    overflow-y: hidden;
 }
 
 body {
@@ -210,7 +213,7 @@ footer {
 // 主要內容-overflow
 .overflow-auto-x {
 
-    overflow-x: scroll;
+    overflow-x: overlay;
     overflow-y: hidden;
 
     // &::-webkit-scrollbar {
@@ -220,7 +223,7 @@ footer {
 
 .overflow-auto-y {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: overlay;
 
     // &::-webkit-scrollbar {
     //     display: none
