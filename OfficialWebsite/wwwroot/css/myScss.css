@@ -6600,6 +6600,7 @@ h4 {
 }
 
 .block-plain:hover .issues-div:hover {
+  cursor: pointer;
   opacity: 1;
 }
 
@@ -6624,7 +6625,9 @@ h4 {
 }
 
 .issues-div {
-  display: block;
+  float: left;
+  display: inline-block;
+  width: calc( 100% /3);
   height: 100%;
   background: #292929;
   position: relative;

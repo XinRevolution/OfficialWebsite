@@ -1,7 +1,7 @@
 ﻿@{
-    ViewBag.Transition = TransitionType.EXPAND;
+ViewBag.Transition = TransitionType.EXPAND;
 }
-
+<!-- 單元寬度待調整-->
 <!-- Issues -->
 <div class="grid-container h100 relative overflowAuto-y">
     <div class="now">Issues</div>
@@ -16,21 +16,66 @@
     <div>切換按鈕</div>
 
     <div class="block-plain column-18 pre-6">
-        @* Issue 單元 *@
-        <div class="issues-div">
-            <div>
-                <img src="~/images/issue-01.jpg" />
+        <div class="issues-height block">
+
+            @* Issue 單元 *@
+            <div class="issues-div">
+
+                <div class="issues-img">
+                    <img src="~/images/issue-01.jpg" />
+                </div>
+                <div class="issues-content">
+                    <div class="rectangle-title light">title</div>
+
+                    <div class="issue-date">
+                        <div class="date">2018-12-16</div>
+                    </div>
+
+                    <div>content</div>
+
+                    <div>read more</div>
+                </div>
             </div>
 
-            <div>
-                <div>title</div>
+              @* Issue 單元 *@
+            <div class="issues-div">
 
-                <div>date</div>
+                <div class="issues-img">
+                    <img src="~/images/issue-01.jpg" />
+                </div>
+                <div class="issues-content">
+                    <div class="rectangle-title light">title</div>
 
-                <div>content</div>
+                    <div class="issue-date">
+                        <div class="date">2018-12-16</div>
+                    </div>
 
-                <div>read more</div>
+                    <div>content</div>
+
+                    <div>read more</div>
+                </div>
             </div>
+
+
+              @* Issue 單元 *@
+            <div class="issues-div">
+
+                <div class="issues-img">
+                    <img src="~/images/issue-01.jpg" />
+                </div>
+                <div class="issues-content">
+                    <div class="rectangle-title light">title</div>
+
+                    <div class="issue-date">
+                        <div class="date">2018-12-16</div>
+                    </div>
+
+                    <div>content</div>
+
+                    <div>read more</div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
@@ -41,61 +86,6 @@
 </div>
 
 @section Scripts {
-    @* 輪播套件 *@
-    <script type="text/javascript" src="~/js/issue.js"></script>
+@* 輪播套件 *@
+<script type="text/javascript" src="~/js/issue.js"></script>
 }
-
-@*
-    <!-- 內容區塊 -->
-    <div class="block-plain column-18 pre-6">
-        <div class="block-group block-group-3-up">
-            <!-- 單元區塊 -->
-            <div class="issues-height block">
-                <a class="issues-div" asp-controller="Home" asp-action="Issue" asp-route-id="1">
-                    <div class="issues-img">
-                        <img src="/images/issue-01.jpg">
-                    </div>
-                    <div class="issues-content">
-                        <div class="rectangle-title light">TEST</div>
-                        <div class="issue-date">
-                            <div class="date">2018-12-16</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!--end -->
-
-            <!-- 單元區塊 -->
-            <div class="issues-height block">
-                <a class="issues-div" asp-controller="Home" asp-action="Issue" asp-route-id="1">
-                    <div class="issues-img">
-                        <img src="/images/issue-01.jpg">
-                    </div>
-                    <div class="issues-content">
-                        <div class="rectangle-title light">TEST</div>
-                        <div class="issue-date">
-                            <div class="date">2018-12-16</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!--end -->
-
-            <!-- 單元區塊 -->
-            <div class="issues-height block">
-                <a class="issues-div" asp-controller="Home" asp-action="Issue" asp-route-id="1">
-                    <div class="issues-img">
-                        <img src="/images/issue-01.jpg">
-                    </div>
-                    <div class="issues-content">
-                        <div class="rectangle-title light">TEST</div>
-                        <div class="issue-date">
-                            <div class="date">2018-12-16</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!--end -->
-        </div>
-    </div>
-*@
