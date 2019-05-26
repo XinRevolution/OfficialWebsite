@@ -15,8 +15,8 @@ function toggleClass(target, add, className) {
 }
 
 // 發送 Ajax 要求
-function sendAjaxRequest(option, callback) {
-
+function sendAjaxRequest(option) {
+    $.ajax(option);
 }
 
 // 鎖定畫面

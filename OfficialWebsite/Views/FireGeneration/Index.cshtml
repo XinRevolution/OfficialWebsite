@@ -2,5 +2,30 @@
     ViewBag.Transition = TransitionType.HORIZONTAL;
 }
 
-@* 焰世代 *@
-<div>焰世代</div>
+<style>
+    .nameDiv {
+        margin-bottom: 0.5rem;
+    }
+
+    .characterInfo {
+        top: 50%;
+        position: relative;
+    }
+
+    td {
+        border: 1px solid #000;
+    }
+</style>
+
+@* 焰世代 - 首頁 *@
+<div>
+    <partial name="_LayoutNavigation" />
+
+    <div class="charactersBg">
+        <div class="grid-container h100 relative">
+            <a class="column-7 pre-17 character-01" asp-controller="FireGeneration" asp-action="Character" asp-route-role="HawkEagle"></a>
+        </div>
+    </div>
+
+    <partial name="_Navigation" />
+</div>

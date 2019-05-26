@@ -14,9 +14,9 @@ namespace OfficialWebsite.Controllers
             return View();
         }
 
-        public IActionResult detail(long id)
+        public IActionResult Detail(long id)
         {
-            return PartialView("_detail");
+            return PartialView("_Detail");
         }
     }
 }

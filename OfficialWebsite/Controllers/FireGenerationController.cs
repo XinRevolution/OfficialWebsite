@@ -12,5 +12,42 @@ namespace OfficialWebsite.Controllers
         {
             return View();
         }
+
+        public IActionResult Intro()
+        {
+            return View();
+        }
+
+        public IActionResult Character(string role)
+        {
+            ViewBag.PartialPath = string.Format("_{0}", role);
+
+            return View();
+        }
+
+        public IActionResult Timeline()
+        {
+            return View();
+        }
+
+        public IActionResult Season()
+        {
+            return View();
+        }
+
+        //public IActionResult Chapter()
+        //{
+        //    return View();
+        //}
+
+        public IActionResult Conception()
+        {
+            return View();
+        }
+
+        public IActionResult ConceptionContent(long id)
+        {
+            return PartialView();
+        }
     }
 }
