@@ -35,10 +35,21 @@ namespace OfficialWebsite.Controllers
             return View();
         }
 
-        //public IActionResult Chapter()
-        //{
-        //    return View();
-        //}
+        public IActionResult Comic(string comic)
+        {
+            return PartialView(comic);
+        }
+
+        public IActionResult Questionnaire(long id)
+        {
+            return PartialView("_Questionnaire");
+        }
+
+        [HttpPost]
+        public IActionResult Questionnaire()
+        {
+            return Json(new { });
+        }
 
         public IActionResult Conception()
         {

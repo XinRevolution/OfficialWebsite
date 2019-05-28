@@ -7,10 +7,10 @@
     <a asp-controller="FireGeneration" asp-action="Timeline">返回</a>
 
     <div>
-        <div><img src=""/></div>
+        <div><img src="" /></div>
 
         <div>
-            <div>00</div>
+            <div>Season Number</div>
             <div>
                 <table>
                     <tr>
@@ -90,16 +90,31 @@
         </div>
 
         <div>
-            <div>title</div>
+            <div>Season Title</div>
 
             <div>
                 <img />
                 <div>chapter title</div>
                 <p>chapter content</p>
             </div>
-
         </div>
     </div>
 
     <partial name="_Navigation" />
 </div>
+
+@* Popup *@
+<div>
+    <div>
+        <div>Season Number</div>
+        <div>Season Title</div>
+        <div>返回</div>
+    </div>
+
+    <div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/FireGeneration/season.js"></script>
+}
