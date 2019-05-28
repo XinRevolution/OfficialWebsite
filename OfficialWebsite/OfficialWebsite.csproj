@@ -5,9 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Entity\**" />
+    <Compile Remove="Models\ViewModel\**" />
     <Compile Remove="wwwroot\styles\**" />
+    <Content Remove="Models\Entity\**" />
+    <Content Remove="Models\ViewModel\**" />
     <Content Remove="wwwroot\styles\**" />
+    <EmbeddedResource Remove="Models\Entity\**" />
+    <EmbeddedResource Remove="Models\ViewModel\**" />
     <EmbeddedResource Remove="wwwroot\styles\**" />
+    <None Remove="Models\Entity\**" />
+    <None Remove="Models\ViewModel\**" />
     <None Remove="wwwroot\styles\**" />
   </ItemGroup>
 
@@ -81,8 +89,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Entity\" />
-    <Folder Include="Models\ViewModel\" />
     <Folder Include="Sass\" />
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
