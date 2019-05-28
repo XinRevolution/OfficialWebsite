@@ -58,7 +58,7 @@ h4 {
   margin-left: 0.5rem;
 }
 
-.full-screenBg, .characters-bg, .seasonDiv {
+.characters-bg, .seasonDiv {
   width: 100%;
   height: 100%;
   position: absolute;

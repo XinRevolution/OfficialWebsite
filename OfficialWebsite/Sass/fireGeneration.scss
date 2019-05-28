@@ -84,14 +84,14 @@
     background: url("/images/concept02.jpg") no-repeat;
     background-size: cover;
     background-position-y: 30%;
-    @extend .full-screenBg;
+    @extend %full-screenBg;
 
 }
 
 // 時間軸-季
 .seasonDiv {
     background: $black;
-    @extend .full-screenBg;
+    @extend %full-screenBg;
 }
 
 .seasonInfo {
