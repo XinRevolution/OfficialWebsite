@@ -184,10 +184,13 @@
     }
 
     // 焰
-    .fire-logo {
+    .icon-fire {
         @include transition(all, 0.4s, ease, 0s);
         opacity: 0;
+        visibility: hidden;
         margin: 6rem 0.3rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     a {
@@ -231,10 +234,9 @@
         }
 
         // 焰-hover
-        .fireLogo {
-
+        .icon-fire {
             opacity: 1;
-            display: block;
+            visibility: show;
         }
 
         // 警示線-hover

@@ -4977,14 +4977,17 @@ h4 {
   display: inline-block;
 }
 
-.fire-menu .fire-logo {
+.fire-menu .icon-fire {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
   opacity: 0;
+  visibility: hidden;
   margin: 6rem 0.3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .fire-menu a {
@@ -5027,9 +5030,9 @@ h4 {
   color: #292929;
 }
 
-.fire-menu.sideMenu-active .fireLogo, .fire-menu:hover .fireLogo, .fire-menu:active .fireLogo {
+.fire-menu.sideMenu-active .icon-fire, .fire-menu:hover .icon-fire, .fire-menu:active .icon-fire {
   opacity: 1;
-  display: block;
+  visibility: show;
 }
 
 .fire-menu.sideMenu-active .warning-lines:after, .fire-menu:hover .warning-lines:after, .fire-menu:active .warning-lines:after {
