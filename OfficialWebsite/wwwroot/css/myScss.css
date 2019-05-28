@@ -4485,6 +4485,11 @@ h4 {
   box-shadow: 4px 4px 7px 0px #0003;
 }
 
+.btn.return {
+  float: right;
+  color: #292929;
+}
+
 h1 {
   font-size: 7rem;
 }
