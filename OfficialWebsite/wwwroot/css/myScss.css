@@ -7101,7 +7101,7 @@ h4 {
 }
 
 .free:hover {
-  background: url(/images/free.png) no-repeat;
+  background: url(/images/free-hover.png) no-repeat;
   background-size: contain;
 }
 
