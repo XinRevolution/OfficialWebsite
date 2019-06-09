@@ -78,9 +78,10 @@
         }
     }
 }
-.character-01 {
+
+@mixin character-menu ($img) {
     @include transition(all, 0.4s, ease, 0s);
-    background: url(/images/free.png)no-repeat;
+    background: $img;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -100,8 +101,8 @@
     }
 
     &:hover {
-        @extend.character-01 ;
-        background: url("/images/free-hover.png") no-repeat;
+        // @extend %character-menu;
+        background: $img;
         background-size: contain;
 
         &:before {
@@ -113,6 +114,14 @@
     }
 }
 
+.free {
+    @include character-menu ($img:url(/images/free.png)no-repeat);
+}
+
+.bear {
+    @include character-menu ($img:url(/images/bear.png)no-repeat);
+}
+
 .characters-bg {
     background: url("/images/concept02.jpg") no-repeat;
     background-size: cover;
@@ -120,6 +129,7 @@
     @extend %full-screenBg;
 
 }
+
 
 // 時間軸-季
 .seasonDiv {
@@ -315,15 +325,15 @@
     }
 }
 
-.readSection-1
-{
+.readSection-1 {
     color: #fff;
-    img{
+
+    img {
         height: 30rem;
         margin: 0.5rem;
     }
 
-    p{
+    p {
         margin: 0.5rem;
     }
 }
