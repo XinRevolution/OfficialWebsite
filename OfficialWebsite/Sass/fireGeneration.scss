@@ -79,7 +79,7 @@
     }
 }
 
-@mixin character-menu ($img,$img-hover) {
+@mixin character-menu ($img, $img-hover) {
     @include transition(all, 0.4s, ease, 0s);
     background: $img;
     background-position: center;
@@ -115,11 +115,27 @@
 }
 
 .free {
-    @include character-menu ($img:url(/images/free.png)no-repeat,$img-hover:url(/images/free-hover.png)no-repeat);
+    @include character-menu ($img:url(/images/free.png)no-repeat, $img-hover:url(/images/free-hover.png)no-repeat);
 }
 
 .bear {
-    @include character-menu ($img:url(/images/bear.png)no-repeat,$img-hover:url(/images/bear.png)no-repeat);
+    @include character-menu ($img:url(/images/bear.png)no-repeat, $img-hover:url(/images/bear.png)no-repeat);
+}
+
+.tiger {
+    @include character-menu ($img:url(/images/tiger.png)no-repeat, $img-hover:url(/images/tiger.png)no-repeat);
+}
+
+.bee {
+    @include character-menu ($img:url(/images/bee.png)no-repeat, $img-hover:url(/images/bee.png)no-repeat);
+}
+
+.dg {
+    @include character-menu ($img:url(/images/dg.png)no-repeat, $img-hover:url(/images/dg.png)no-repeat);
+}
+
+.fish {
+    @include character-menu ($img:url(/images/fish.png)no-repeat, $img-hover:url(/images/fish.png)no-repeat);
 }
 
 .characters-bg {

@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Transition = TransitionType.HORIZONTAL;
+ViewBag.Transition = TransitionType.HORIZONTAL;
 }
 
 <style>
@@ -23,12 +23,22 @@
 
     <div class="characters-bg">
         <div class="grid-container h100 relative">
-             <a class="column-7  bear" asp-controller="FireGeneration" asp-action="Character" asp-route-role="Bear"></a>
-            <a class="column-7  free " asp-controller="FireGeneration" asp-action="Character" asp-route-role="HawkEagle"></a>
-             
-                <a class="column-7 " asp-controller="FireGeneration" asp-action="Character" asp-route-role="HawkEagle"></a>
-                  <a class="column-7 " asp-controller="FireGeneration" asp-action="Character" asp-route-role="HawkEagle"></a>
-                    <a class="column-7 " asp-controller="FireGeneration" asp-action="Character" asp-route-role="HawkEagle"></a>
+            <a class="column-4  bear" asp-controller="FireGeneration" asp-action="Character" asp-route-role="Bear"></a>
+
+            <a class="column-4 fish" asp-controller="FireGeneration" asp-action="Character"
+                asp-route-role="Fish"></a>
+
+            <a class="column-4 tiger" asp-controller="FireGeneration" asp-action="Character"
+                asp-route-role="Tiger"></a>
+
+            <a class="column-4  dg" asp-controller="FireGeneration" asp-action="Character"
+                asp-route-role="Dg"></a>
+
+            <a class="column-4  bee" asp-controller="FireGeneration" asp-action="Character"
+                asp-route-role="Bee"></a>
+
+            <a class="column-4  free " asp-controller="FireGeneration" asp-action="Character"
+                asp-route-role="HawkEagle"></a>
         </div>
     </div>
 
