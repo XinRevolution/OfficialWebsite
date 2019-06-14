@@ -126,6 +126,15 @@
     }
 }
 
+
+// popup-div
+
+.popup-div {
+    @extend .aboutUs-div;
+    z-index: 2000;
+
+}
+
 // fire-menu
 .fire-menu {
     background: $black;
@@ -265,6 +274,7 @@
         }
     }
 }
+
 
 
 //sign

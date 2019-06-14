@@ -4775,7 +4775,7 @@ h4 {
   color: #292929;
 }
 
-.menu-div .close, .aboutUs-div .close {
+.menu-div .close, .aboutUs-div .close, .popup-div .close {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4795,11 +4795,11 @@ h4 {
   opacity: 0.6;
 }
 
-.menu-div .close:hover, .aboutUs-div .close:hover {
+.menu-div .close:hover, .aboutUs-div .close:hover, .popup-div .close:hover {
   opacity: 1;
 }
 
-.menu-div .close:after, .aboutUs-div .close:after {
+.menu-div .close:after, .aboutUs-div .close:after, .popup-div .close:after {
   content: "close";
   font-size: 1rem;
   position: absolute;
@@ -4872,7 +4872,7 @@ h4 {
   color: #000;
 }
 
-.aboutUs-div {
+.aboutUs-div, .popup-div {
   transition: all 0.4s ease 0s;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4888,14 +4888,18 @@ h4 {
   opacity: 0;
 }
 
-.aboutUs-div.active {
+.aboutUs-div.active, .active.popup-div {
   visibility: visible;
   opacity: 1;
 }
 
-.aboutUs-div .aboutUs-content {
+.aboutUs-div .aboutUs-content, .popup-div .aboutUs-content {
   font-size: 6rem;
   color: #fff;
+}
+
+.popup-div {
+  z-index: 2000;
 }
 
 .fire-menu {
