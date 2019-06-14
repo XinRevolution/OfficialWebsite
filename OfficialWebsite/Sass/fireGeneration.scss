@@ -115,31 +115,31 @@
 }
 
 .free {
-    @include character-menu ($img:url(/images/free.png)no-repeat, $img-hover:url(/images/free-hover.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/free.png)no-repeat, $img-hover:url(/Official/images/free-hover.png)no-repeat);
 }
 
 .bear {
-    @include character-menu ($img:url(/images/bear.png)no-repeat, $img-hover:url(/images/bear.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/bear.png)no-repeat, $img-hover:url(/Official/images/bear.png)no-repeat);
 }
 
 .tiger {
-    @include character-menu ($img:url(/images/tiger.png)no-repeat, $img-hover:url(/images/tiger.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/tiger.png)no-repeat, $img-hover:url(/Official/images/tiger.png)no-repeat);
 }
 
 .bee {
-    @include character-menu ($img:url(/images/bee.png)no-repeat, $img-hover:url(/images/bee.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/bee.png)no-repeat, $img-hover:url(/Official/images/bee.png)no-repeat);
 }
 
 .dg {
-    @include character-menu ($img:url(/images/dg.png)no-repeat, $img-hover:url(/images/dg.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/dg.png)no-repeat, $img-hover:url(/Official/images/dg.png)no-repeat);
 }
 
 .fish {
-    @include character-menu ($img:url(/images/fish.png)no-repeat, $img-hover:url(/images/fish.png)no-repeat);
+    @include character-menu ($img:url(/Official/images/fish.png)no-repeat, $img-hover:url(/Official/images/fish.png)no-repeat);
 }
 
 .characters-bg {
-    background: url("/images/concept02.jpg") no-repeat;
+    background: url("/Official/images/concept02.jpg") no-repeat;
     background-size: cover;
     background-position-y: 30%;
     @extend %full-screenBg;
@@ -309,12 +309,12 @@
 }
 
 .left-hand {
-    background: url(/images/L-hand-02.png)center no-repeat;
+    background: url(/Official/images/L-hand-02.png)center no-repeat;
     @extend ％hand;
 }
 
 .right-hand {
-    background: url(/images/R-hand-02.png)center no-repeat;
+    background: url(/Official/images/R-hand-02.png)center no-repeat;
     @extend ％hand;
     right: 0;
 }

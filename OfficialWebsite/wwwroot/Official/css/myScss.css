@@ -3755,7 +3755,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -3835,7 +3835,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -4082,7 +4082,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -4162,7 +4162,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -4523,7 +4523,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -4603,7 +4603,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -5015,7 +5015,7 @@ h4 {
 
 .fire-menu .warning-lines:after {
   content: '';
-  background: url("/images/warning-lines.svg");
+  background: url("/Official/images/warning-lines.svg");
   width: 200%;
   height: 100%;
   display: block;
@@ -5136,7 +5136,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -5216,7 +5216,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -5412,7 +5412,7 @@ h4 {
 }
 
 .moon {
-  background: url("/images/moon.png") no-repeat;
+  background: url("/Official/images/moon.png") no-repeat;
   background-size: 100%;
   width: 60rem;
   height: 60rem;
@@ -5426,7 +5426,7 @@ h4 {
 }
 
 .wing {
-  background: url("/images/wing.png") no-repeat;
+  background: url("/Official/images/wing.png") no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 3;
@@ -5448,8 +5448,8 @@ h4 {
   content: "";
   clear: both;
   display: block;
-  background: radial-gradient(circle at 50% 15%, rgba(176, 177, 181, 0.58), rgba(0, 0, 0, 0.42)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72))), url(/images/screen.png) center center repeat;
-  background: radial-gradient(circle at 50% 15%, rgba(176, 177, 181, 0.58), rgba(0, 0, 0, 0.42)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(/images/screen.png) center center repeat;
+  background: radial-gradient(circle at 50% 15%, rgba(176, 177, 181, 0.58), rgba(0, 0, 0, 0.42)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72))), url(/Official/images/screen.png) center center repeat;
+  background: radial-gradient(circle at 50% 15%, rgba(176, 177, 181, 0.58), rgba(0, 0, 0, 0.42)), linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(/Official/images/screen.png) center center repeat;
   -ms-background-size: 3px 3px;
   background-size: 3px 3px;
 }
@@ -5479,7 +5479,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url("/images/X-logo.svg") no-repeat;
+  background: url("/Official/images/X-logo.svg") no-repeat;
   width: 100%;
   height: 100%;
   background-size: contain;
@@ -5544,7 +5544,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -5624,7 +5624,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -5840,7 +5840,7 @@ h4 {
 
 .blog-unit .blog-title:before {
   content: '';
-  background: url(/images/theme.svg) no-repeat center;
+  background: url(/Official/images/theme.svg) no-repeat center;
   background-size: cover;
   left: 0;
   height: 2rem;
@@ -5942,7 +5942,7 @@ h4 {
   right: 0;
   width: 50%;
   bottom: 0;
-  background: url(/images/free_set04.png) no-repeat;
+  background: url(/Official/images/free_set04.png) no-repeat;
   background-size: cover;
   background-position: 8% 7rem;
 }
@@ -5985,7 +5985,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -6065,7 +6065,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -6346,7 +6346,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -6426,7 +6426,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -6749,7 +6749,7 @@ h4 {
   top: -80%;
   z-index: -1;
   width: 200%;
-  background: url(/images/X-logo-w.svg) no-repeat;
+  background: url(/Official/images/X-logo-w.svg) no-repeat;
   height: 200%;
   position: fixed;
   background-size: 100%;
@@ -6829,7 +6829,7 @@ h4 {
   height: 21rem;
   border-radius: 100%;
   border: 1px solid red;
-  background: url(/images/fire.svg) no-repeat;
+  background: url(/Official/images/fire.svg) no-repeat;
   background-size: 90%;
   background-position: center;
   -webkit-animation: a-fire 1s ease;
@@ -7075,7 +7075,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/free.png) no-repeat;
+  background: url(/Official/images/free.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7100,7 +7100,7 @@ h4 {
 }
 
 .free:hover {
-  background: url(/images/free-hover.png) no-repeat;
+  background: url(/Official/images/free-hover.png) no-repeat;
   background-size: contain;
 }
 
@@ -7116,7 +7116,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/bear.png) no-repeat;
+  background: url(/Official/images/bear.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7141,7 +7141,7 @@ h4 {
 }
 
 .bear:hover {
-  background: url(/images/bear.png) no-repeat;
+  background: url(/Official/images/bear.png) no-repeat;
   background-size: contain;
 }
 
@@ -7157,7 +7157,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/tiger.png) no-repeat;
+  background: url(/Official/images/tiger.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7182,7 +7182,7 @@ h4 {
 }
 
 .tiger:hover {
-  background: url(/images/tiger.png) no-repeat;
+  background: url(/Official/images/tiger.png) no-repeat;
   background-size: contain;
 }
 
@@ -7198,7 +7198,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/bee.png) no-repeat;
+  background: url(/Official/images/bee.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7223,7 +7223,7 @@ h4 {
 }
 
 .bee:hover {
-  background: url(/images/bee.png) no-repeat;
+  background: url(/Official/images/bee.png) no-repeat;
   background-size: contain;
 }
 
@@ -7239,7 +7239,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/dg.png) no-repeat;
+  background: url(/Official/images/dg.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7264,7 +7264,7 @@ h4 {
 }
 
 .dg:hover {
-  background: url(/images/dg.png) no-repeat;
+  background: url(/Official/images/dg.png) no-repeat;
   background-size: contain;
 }
 
@@ -7280,7 +7280,7 @@ h4 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
-  background: url(/images/fish.png) no-repeat;
+  background: url(/Official/images/fish.png) no-repeat;
   background-position: center;
   height: 100vh;
   background-size: contain;
@@ -7305,7 +7305,7 @@ h4 {
 }
 
 .fish:hover {
-  background: url(/images/fish.png) no-repeat;
+  background: url(/Official/images/fish.png) no-repeat;
   background-size: contain;
 }
 
@@ -7316,7 +7316,7 @@ h4 {
 }
 
 .characters-bg {
-  background: url("/images/concept02.jpg") no-repeat;
+  background: url("/Official/images/concept02.jpg") no-repeat;
   background-size: cover;
   background-position-y: 30%;
 }
@@ -7462,11 +7462,11 @@ h4 {
 }
 
 .left-hand {
-  background: url(/images/L-hand-02.png) center no-repeat;
+  background: url(/Official/images/L-hand-02.png) center no-repeat;
 }
 
 .right-hand {
-  background: url(/images/R-hand-02.png) center no-repeat;
+  background: url(/Official/images/R-hand-02.png) center no-repeat;
   right: 0;
 }
 
@@ -7569,7 +7569,7 @@ header div {
 }
 
 header.bright .x-logo {
-  background: url(/images/X-logo-w.svg) no-repeat !important;
+  background: url(/Official/images/X-logo-w.svg) no-repeat !important;
   background-size: contain !important;
   background-position: center !important;
 }
@@ -7609,14 +7609,14 @@ footer {
 
 .footer-div:before {
   content: '';
-  background: url("/images/footer-line-l.svg") no-repeat center;
+  background: url("/Official/images/footer-line-l.svg") no-repeat center;
   background-size: contain;
   left: 8rem;
 }
 
 .footer-div:after {
   content: '';
-  background: url("/images/footer-line-r.svg") no-repeat center;
+  background: url("/Official/images/footer-line-r.svg") no-repeat center;
   background-size: contain;
   right: 8rem;
 }
@@ -7753,12 +7753,12 @@ footer {
 }
 
 .top-sight:before {
-  background: url("/images/topLeftSight.svg") no-repeat right top;
+  background: url("/Official/images/topLeftSight.svg") no-repeat right top;
   left: 20%;
 }
 
 .top-sight:after {
-  background: url("/images/topRightSight.svg") no-repeat left top;
+  background: url("/Official/images/topRightSight.svg") no-repeat left top;
   right: 20%;
 }
 
@@ -7773,7 +7773,7 @@ footer {
 }
 
 .bottom-sight:before {
-  background: url("/images/bottomLeftSight.svg") no-repeat right bottom;
+  background: url("/Official/images/bottomLeftSight.svg") no-repeat right bottom;
   left: 20%;
   content: "23.973875°N";
   bottom: auto;
@@ -7787,7 +7787,7 @@ footer {
 
 .bottom-sight:after {
   text-align: right;
-  background: url("/images/bottomRightSight.svg") no-repeat left bottom;
+  background: url("/Official/images/bottomRightSight.svg") no-repeat left bottom;
   right: 20%;
   content: "120.982024°E";
   bottom: auto;
@@ -7814,7 +7814,7 @@ footer {
 }
 
 .index-circle {
-  background: url("/images/index-circle.svg") no-repeat center;
+  background: url("/Official/images/index-circle.svg") no-repeat center;
   background-size: contain;
   height: 80%;
   width: 80%;

@@ -74,7 +74,7 @@ header {
     &.bright {
         .x-logo {
             @extend .x-logo;
-            background: url(/images/X-logo-w.svg) no-repeat !important;
+            background: url(/Official/images/X-logo-w.svg) no-repeat !important;
             background-size: contain !important;
             background-position: center !important;
         }
@@ -117,7 +117,7 @@ footer {
 
     &:before {
         content: '';
-        background: url("/images/footer-line-l.svg") no-repeat center; 
+        background: url("/Official/images/footer-line-l.svg") no-repeat center; 
         background-size: contain;
         @extend %footer-line;
         left: 8rem;
@@ -125,7 +125,7 @@ footer {
 
     &:after {
         content: '';
-        background: url("/images/footer-line-r.svg") no-repeat center;
+        background: url("/Official/images/footer-line-r.svg") no-repeat center;
         background-size: contain;
         @extend %footer-line;
         right: 8rem;
@@ -298,12 +298,12 @@ $sight-position:-20px;
     }
 
     &:before {
-        background: url("/images/topLeftSight.svg")no-repeat right top;
+        background: url("/Official/images/topLeftSight.svg")no-repeat right top;
         left: $positon;
     }
 
     &:after {
-        background: url("/images/topRightSight.svg")no-repeat left top;
+        background: url("/Official/images/topRightSight.svg")no-repeat left top;
         right: $positon;
     }
 }
@@ -319,14 +319,14 @@ $sight-position:-20px;
     }
 
     &:before {
-        background: url("/images/bottomLeftSight.svg")no-repeat right bottom;
+        background: url("/Official/images/bottomLeftSight.svg")no-repeat right bottom;
         left: $positon;
         @include sight($coordinate: '23.973875°N', $top: $sight-position)
     }
 
     &:after {
         text-align: right;
-        background: url("/images/bottomRightSight.svg")no-repeat left bottom;
+        background: url("/Official/images/bottomRightSight.svg")no-repeat left bottom;
         right: $positon;
         @include sight($coordinate: '120.982024°E', $top: $sight-position)
     }
@@ -351,7 +351,7 @@ $sight-position:-20px;
 // 瞄準圈
 
 .index-circle {
-    background: url("/images/index-circle.svg") no-repeat center;
+    background: url("/Official/images/index-circle.svg") no-repeat center;
     background-size: contain;
     height: 80%;
     width: 80%;
