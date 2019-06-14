@@ -407,7 +407,6 @@ h4 {
   background: url(/images/free.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -449,7 +448,6 @@ h4 {
   background: url(/images/bear.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -491,7 +489,6 @@ h4 {
   background: url(/images/tiger.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -533,7 +530,6 @@ h4 {
   background: url(/images/bee.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -575,7 +571,6 @@ h4 {
   background: url(/images/dg.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -617,7 +612,6 @@ h4 {
   background: url(/images/fish.png) no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%;
   background-size: contain;
   position: relative;
 }
@@ -654,6 +648,10 @@ h4 {
   background: url("/images/concept02.jpg") no-repeat;
   background-size: cover;
   background-position-y: 30%;
+}
+
+.fire-intro p {
+  margin: 1rem 0;
 }
 
 .seasonDiv {

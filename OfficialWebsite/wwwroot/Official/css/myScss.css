@@ -7321,6 +7321,10 @@ h4 {
   background-position-y: 30%;
 }
 
+.fire-intro p {
+  margin: 1rem 0;
+}
+
 .seasonDiv {
   background: #292929;
 }
